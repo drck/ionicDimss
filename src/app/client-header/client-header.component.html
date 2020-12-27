@@ -1,0 +1,30 @@
+<ion-header *ngIf="secure.bndBaner">
+  <div class="brand">
+    <img src="assets/logo.png" alt="">
+  </div>
+  <div class="client-control">
+
+    <div class="client-avatar" (click)="showLogout()" [ngClass]="{'home-border': !isOnDashboard}">
+     
+      <div class="avatar-controls">
+       <div><ion-title style="position: relative;">
+          David Gonzalez
+        </ion-title>
+        <ion-avatar  style="float: left;" *ngIf="false">
+          <img src="{{ profileImage }}" (error)="isInvalidImage = true">
+        </ion-avatar>
+      </div>
+        <img *ngIf="true" class="thumbImg" src="assets/icon/icon-ejecutivo.svg" alt="">
+        <button (click)="logout()" *ngIf="showLogoutButton">
+          <p>
+            Cerrar sesión
+          </p>
+        </button>
+      </div>
+    </div>
+    <button  (click)="navCtrl.navigateRoot('/home')" class="home-button">
+      <img src="assets/images/home.svg" alt="">
+    </button>
+
+  </div>
+</ion-header>

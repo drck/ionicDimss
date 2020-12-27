@@ -1,0 +1,84 @@
+
+mat-form-field {
+        width: 33%;
+    padding: 1rem;
+    }
+    ion-item{
+      width: 33%;
+      padding: 1rem;
+    }
+
+    ion-grid {
+        height: 100%;
+        width: 100%;
+        background-color: #eff1f2;
+      
+        .top-row {
+          height: 10%;
+        }
+      
+        .middle-row {
+          height: 70%;
+      
+          form {
+            background-color: white;
+            height: 100%;
+            border-radius: 2px;
+          }
+      
+          section {
+            position: relative;
+            height: 100%;
+            width: 100%;
+            padding: 2.7% 7.6% 5.3% 5%;
+      
+            .client-header {
+              h1 {
+                font-size: 40px;
+                font-weight: normal;
+                color: #344653;
+              }
+      
+              p {
+                font-size: 28px;
+                font-weight: normal;
+                color: #344653;
+              }
+            }
+      
+            .client-card-input {
+              margin: 150px 0px;
+              button {
+                margin-top: 110px;
+              }
+              ion-item {
+                width: 75%;
+                border-bottom: solid 1% #d7d8d6;
+                margin: 0 auto 5% auto;
+                ion-label {
+                  order: 1;
+                  font-size: 4.2rem;
+                }
+      
+                ion-input {
+                  font-size: 4rem;
+                  font-weight: 300;
+                  color: #344653;
+                }
+              }
+            }
+          }
+        }
+      
+        .bottom-row {
+          height: 20%;
+        }
+      }
+      
+      .errorText {
+        position: absolute;
+        color: red;
+        margin-left: 10%;
+        margin-top: -1%;
+        font-size: 1.9rem;
+      }

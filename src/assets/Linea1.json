@@ -1,0 +1,2236 @@
+{
+   "area": [
+      {
+         "name": "OPERACION",
+         "lineas": [
+            {
+               "name": "Linea4",
+               "supervicion": [
+                  "Personal de la Linea 1"
+               ],
+               "fundamento_legal": [
+                  "Titulo de concesión"
+               ],
+               "estaciones": [
+                  "CETRAM Indios Verdes ",
+                  "Periférico",
+                  "Puente Martín Carrera",
+                  "Clínica 76",
+                  "Vía Morelos",
+                  "Monumento a Morelos",
+                  "5 de Febrero",
+                  "Santa Clara",
+                  "Cerro Gordo",
+                  "Servicios Administrativos",
+                  "Clínica 93",
+                  "Industrial",
+                  "Quinta Aparicion ",
+                  "Tulpetlac",
+                  "Siervo de la Nación",
+                  "Nuevo Laredo",
+                  "Laureles",
+                  "La Viga",
+                  "San Cristóbal",
+                  "Puente de Fierro",
+                  "Izcalli Ecatepec",
+                  "Heroes 4ta sección",
+                  "Izcalli Palomas",
+                  "Central de Abastos",
+                  "Ejido Santo Tomas",
+                  "Santo Tomas Chiconautla",
+                  "Revolución",
+                  "Margarita F Ayala",
+                  "Flores",
+                  "Bosques",
+                  "Terminal Universidad Mexiquense Del Bicentenario"
+               ],
+               "motivo_directo": [
+                  {
+                     "name": "Falla de operación",
+                     "motivo_especifico": [
+                        "Revisión",
+                        "Incidencia"
+                     ]
+                  },
+                  {
+                     "name": "Reporte de fallas de operación",
+                     "motivo_especifico": [
+                        "Estación",
+                        "Carril"
+                     ]
+                  },
+                  {
+                     "name": "Auditoria",
+                     "motivo_especifico": [
+                        "Inspección y revisión de unidades",
+                        "Cambio de unidad"
+                     ]
+                  },
+                  {
+                     "name": "Informe de incidentes",
+                     "motivo_especifico": [
+                        "Comisión delitos",
+                        "Desviasiones a la operación normal",
+                        "Accidente de las unidades de transporte"
+                     ]
+                  },
+                  {
+                     "name": "Cumplimiento del programa",
+                     "motivo_especifico": [
+                        "Ciclos realizados"
+                     ]
+                  }
+               ],
+               "servicio": [
+                  "ORDINARIO",
+                  "EXPRESS",
+                  "EXPRESS ROSA"
+               ],
+               "ubicacionIntertramo": [
+                  "CETRAM Indios Verdes  - Periférico",
+                  "Periférico - Puente Martín Carrera",
+                  "Puente Martín Carrera - Clínica 76",
+                  "Clínica 76 - Vía Morelos",
+                  "Vía Morelos - Monumento a Morelos",
+                  "Monumento a Morelos - 5 de Febrero",
+                  "5 de Febrero - Santa Clara",
+                  "Santa Clara - Cerro Gordo",
+                  "Cerro Gordo - Servicios Administrativos",
+                  "Servicios Administrativos - Clínica 93",
+                  "Clínica 93 - Industrial",
+                  "Industrial - Quinta Aparicion ",
+                  "Quinta Aparicion  - Tulpetlac",
+                  "Tulpetlac - Siervo de la Nación",
+                  "Siervo de la Nación - Nuevo Laredo",
+                  "Nuevo Laredo - Laureles",
+                  "Laureles - La Viga",
+                  "La Viga - San Cristóbal",
+                  "San Cristóbal - Puente de Fierro",
+                  "Puente de Fierro - Izcalli Ecatepec",
+                  "Izcalli Ecatepec - Heroes 4ta sección",
+                  "Heroes 4ta sección - Izcalli Palomas",
+                  "Izcalli Palomas - Central de Abastos",
+                  "Central de Abastos - Ejido Santo Tomas",
+                  "Ejido Santo Tomas - Santo Tomas Chiconautla",
+                  "Santo Tomas Chiconautla - Revolución",
+                  "Revolución - Margarita F Ayala",
+                  "Margarita F Ayala - Flores",
+                  "Flores - Bosques",
+                  "Bosques - Terminal Universidad Mexiquense Del Bicentenario"
+               ],
+               "consesionaria": [
+                  "SANTA CLARA"
+               ],
+               "tipo_falla": [
+                  "Articulación",
+                  "Asiento de usuarios",
+                  "Asiento del operador",
+                  "Baja potencia",
+                  "Bajo voltaje ",
+                  "Balatas",
+                  "Baleros",
+                  "Bandas rotas",
+                  "Barandales",
+                  "Bares",
+                  "Bastón de limitación",
+                  "Baterias",
+                  "Bolsas de aire",
+                  "Botón de puertas",
+                  "Calentamiento",
+                  "Cinturón de seguridad del operador",
+                  "Claxón",
+                  "Código activo de puertas ",
+                  "Códigos activo de stop",
+                  "Compresor",
+                  "Cristal flojo",
+                  "Cristales estrellados",
+                  "Cristales rotos",
+                  "Dirección ",
+                  "Eje Motriz",
+                  "Espejo estrellado",
+                  "Espejo flojo",
+                  "Espejo roto",
+                  "Extintor ",
+                  "Fallebas ",
+                  "Falta de combustible",
+                  "Falta de operadores",
+                  "Falta de unidades ",
+                  "Frenos",
+                  "Fuga de aceite",
+                  "Fuga de aire",
+                  "Fuga de anticongelante",
+                  "Fuga de combustible",
+                  "Limpiadores",
+                  "Limpieza del carril confinado ",
+                  "Luces exteriores",
+                  "Luces interiores",
+                  "Manguera",
+                  "Mobitec",
+                  "Motor",
+                  "Neumático",
+                  "Pasamanos",
+                  "Pedal",
+                  "Percance",
+                  "Potencia",
+                  "Puerta de emergencia",
+                  "Puertas de servicio",
+                  "Radiador",
+                  "Responsable se da a la fuga",
+                  "Retardador",
+                  "Retraso",
+                  "Rolinas ",
+                  "Solicitud de mantenimiento",
+                  "Sucia",
+                  "Supensión levantada ",
+                  "Suspensión caida ",
+                  "Tambor",
+                  "Tapas ",
+                  "Torreta",
+                  "Transmisión",
+                  "Válvula",
+                  "Ventana de puerta de servicio",
+                  "Vigía ",
+                  "Volante",
+                  "Zanfona rota"
+               ],
+               "sentido": [
+                  "NORTE",
+                  "SUR",
+                  "ORIENTE",
+                  "PONIENTE"
+               ],
+               "sancion": [
+                  "Neumático",
+                  "Falleba",
+                  "Zanfona",
+                  "Frenos",
+                  "Cristales",
+                  "Alma de la Carroceria",
+                  "Faros",
+                  "Navegantes",
+                  "Calaveras",
+                  "Mobitec",
+                  "Motor",
+                  "Anticongelante",
+                  "Aceite",
+                  "Bateria",
+                  "Ejes",
+                  "Asientos",
+                  "Grafiti",
+                  "Puertas",
+                  "Boster",
+                  "Rolina",
+                  "Rin",
+                  "Limpia parabrisas",
+                  "Faldón",
+                  "Lienzo de Estructura",
+                  "Gomas de Puertas"
+               ],
+               "propuesta": [
+                  "Mantenimiento Preventivo",
+                  "Mantenimiento Correctivo",
+                  "Cumplimiento de los Cornogramas de actividades"
+               ]
+            },
+            {
+               "name": "Linea3",
+               "supervicion": [
+                  "Personal de la Linea 3"
+               ],
+               "fundamento_legal": [
+                  "Titulo de concesión"
+               ],
+               "estaciones": [
+                  "Terminal Pantitlán",
+                  "Calle 6 ",
+                  "El Barquito",
+                  "Maravillas",
+                  "Vicente Riva Palacio",
+                  "Virgencitas",
+                  "Nezahualcóyotl",
+                  "Lago de Chapala",
+                  "Adolfo López Mateos",
+                  "Palacio Municipal",
+                  "Sor Juana Inés de la Cruz",
+                  "El Castillito",
+                  "General Vicente Villada",
+                  "Rayito de Sol",
+                  "Las Mañanitas",
+                  "Rancho Grande",
+                  "Bordo de Xochiaca",
+                  "Las Torres",
+                  "Guerrero Chimalli",
+                  "Las Flores",
+                  "Canteros",
+                  "La Presa",
+                  "Embarcadero",
+                  "Santa Elena",
+                  "Ignacio Manuel Altamirano",
+                  "San Pablo",
+                  "Los Patos",
+                  "Refugio",
+                  "Acuitlapilco",
+                  "Chimalhuacán"
+               ],
+               "motivo_directo": [
+                  {
+                     "name": "Falla de operación",
+                     "motivo_especifico": [
+                        "Revisión",
+                        "Incidencia"
+                     ]
+                  },
+                  {
+                     "name": "Reporte de fallas de operación",
+                     "motivo_especifico": [
+                        "Estación",
+                        "Carril"
+                     ]
+                  },
+                  {
+                     "name": "Auditoria",
+                     "motivo_especifico": [
+                        "Inspección y revisión de unidades",
+                        "Cambio de unidad"
+                     ]
+                  },
+                  {
+                     "name": "Informe de incidentes",
+                     "motivo_especifico": [
+                        "Comisión delitos",
+                        "Desviasiones a la operación normal",
+                        "Accidente de las unidades de transporte"
+                     ]
+                  },
+                  {
+                     "name": "Cumplimiento del programa",
+                     "motivo_especifico": [
+                        "Ciclos realizados"
+                     ]
+                  }
+               ],
+               "servicio": [
+                  "ORDINARIO",
+                  "EXPRESS",
+                  "EXPRESS ROSA"
+               ],
+               "ubicacionIntertramo": [
+                  "Terminal Pantitlán - Calle 6 ",
+                  "Calle 6  - El Barquito",
+                  "El Barquito - Maravillas",
+                  "Maravillas - Vicente Riva Palacio",
+                  "Vicente Riva Palacio - Virgencitas",
+                  "Virgencitas - Nezahualcóyotl",
+                  "Nezahualcóyotl - Lago de Chapala",
+                  "Lago de Chapala - Adolfo López Mateos",
+                  "Adolfo López Mateos - Palacio Municipal",
+                  "Palacio Municipal - Sor Juana Inés de la Cruz",
+                  "Sor Juana Inés de la Cruz - El Castillito",
+                  "El Castillito - General Vicente Villada",
+                  "General Vicente Villada - Rayito de Sol",
+                  "Rayito de Sol - Las Mañanitas",
+                  "Las Mañanitas - Rancho Grande",
+                  "Rancho Grande - Bordo de Xochiaca",
+                  "Bordo de Xochiaca - Las Torres",
+                  "Las Torres - Guerrero Chimalli",
+                  "Guerrero Chimalli - Las Flores",
+                  "Las Flores - Canteros",
+                  "Canteros - La Presa",
+                  "La Presa - Embarcadero",
+                  "Embarcadero - Santa Elena",
+                  "Santa Elena - Ignacio Manuel Altamirano",
+                  "Ignacio Manuel Altamirano - San Pablo",
+                  "San Pablo - Los Patos",
+                  "Los Patos - Refugio",
+                  "Refugio - Acuitlapilco",
+                  "Acuitlapilco - Chimalhuacán"
+               ],
+               "consesionaria": [
+                  "TRANSRED"
+               ],
+               "tipo_falla": [
+                  "Articulación",
+                  "Asiento de usuarios",
+                  "Asiento del operador",
+                  "Baja potencia",
+                  "Bajo voltaje ",
+                  "Balatas",
+                  "Baleros",
+                  "Bandas rotas",
+                  "Barandales",
+                  "Bares",
+                  "Bastón de limitación",
+                  "Baterias",
+                  "Bolsas de aire",
+                  "Botón de puertas",
+                  "Calentamiento",
+                  "Cinturón de seguridad del operador",
+                  "Claxón",
+                  "Código activo de puertas ",
+                  "Códigos activo de stop",
+                  "Compresor",
+                  "Cristal flojo",
+                  "Cristales estrellados",
+                  "Cristales rotos",
+                  "Dirección ",
+                  "Eje Motriz",
+                  "Espejo estrellado",
+                  "Espejo flojo",
+                  "Espejo roto",
+                  "Extintor ",
+                  "Fallebas ",
+                  "Falta de combustible",
+                  "Falta de operadores",
+                  "Falta de unidades ",
+                  "Frenos",
+                  "Fuga de aceite",
+                  "Fuga de aire",
+                  "Fuga de anticongelante",
+                  "Fuga de combustible",
+                  "Limpiadores",
+                  "Limpieza del carril confinado ",
+                  "Luces exteriores",
+                  "Luces interiores",
+                  "Manguera",
+                  "Mobitec",
+                  "Motor",
+                  "Neumático",
+                  "Pasamanos",
+                  "Pedal",
+                  "Percance",
+                  "Potencia",
+                  "Puerta de emergencia",
+                  "Puertas de servicio",
+                  "Radiador",
+                  "Responsable se da a la fuga",
+                  "Retardador",
+                  "Retraso",
+                  "Rolinas ",
+                  "Solicitud de mantenimiento",
+                  "Sucia",
+                  "Supensión levantada ",
+                  "Suspensión caida ",
+                  "Tambor",
+                  "Tapas ",
+                  "Torreta",
+                  "Transmisión",
+                  "Válvula",
+                  "Ventana de puerta de servicio",
+                  "Vigía ",
+                  "Volante",
+                  "Zanfona rota"
+               ],
+               "sentido": [
+                  "NORTE",
+                  "SUR",
+                  "ORIENTE",
+                  "PONIENTE"
+               ],
+               "sancion": [
+                  "Neumático",
+                  "Falleba",
+                  "Zanfona",
+                  "Frenos",
+                  "Cristales",
+                  "Alma de la Carroceria",
+                  "Faros",
+                  "Navegantes",
+                  "Calaveras",
+                  "Mobitec",
+                  "Motor",
+                  "Anticongelante",
+                  "Aceite",
+                  "Bateria",
+                  "Ejes",
+                  "Asientos",
+                  "Grafiti",
+                  "Puertas",
+                  "Boster",
+                  "Rolina",
+                  "Rin",
+                  "Limpia parabrisas",
+                  "Faldón",
+                  "Lienzo de Estructura",
+                  "Gomas de Puertas"
+               ],
+               "propuesta": [
+                  "Mantenimiento Preventivo",
+                  "Mantenimiento Correctivo",
+                  "Cumplimiento de los Cornogramas de actividades"
+               ]
+            },
+            {
+               "name": "Linea2",
+               "supervicion": [
+                  "Personal de la Linea 2"
+               ],
+               "fundamento_legal": [
+                  "Titulo de concesión"
+               ],
+               "estaciones": [
+                  "Las Américas",
+                  "1° de Mayo",
+                  "San Martín",
+                  "Puente de Fierro",
+                  "Casa de Morelos",
+                  "UPE",
+                  "San Cristóbal",
+                  "Agricultura",
+                  "ISSEMYM",
+                  "El Carmen",
+                  "Ecatepec",
+                  "DIF",
+                  "Guadalupe Victoria",
+                  "Venustiano Carranza",
+                  "FOVISSSTE",
+                  "San Carlos",
+                  "La Laguna",
+                  "Parque Residencial",
+                  "Eje 8",
+                  "1ra. De Villa",
+                  "Las Flores - Zacuatitla",
+                  "San Francisco",
+                  "Héroes - Canosas",
+                  "Coacalco - Tultepec",
+                  "Exhacienda San Felipe",
+                  "Bosques del Valle",
+                  "Coacalco - Berriozábal",
+                  "Santa María",
+                  "Villas de San José",
+                  "Mariscala - Real del Bosque",
+                  "Fuentes del Valle",
+                  "De la Cruz - San Mateo",
+                  "Cartagena",
+                  "Bello Horizonte",
+                  "Bandera - Tultitlan",
+                  "Buenavista",
+                  "COCEM",
+                  "Recursos Hidráulicos",
+                  "Chilpan",
+                  "Ciudad Labor",
+                  "Vidriería",
+                  "Lechería",
+                  "La Quebrada"
+               ],
+               "motivo_directo": [
+                  {
+                     "name": "Falla de operación",
+                     "motivo_especifico": [
+                        "Revisión",
+                        "Incidencia"
+                     ]
+                  },
+                  {
+                     "name": "Reporte de fallas de operación",
+                     "motivo_especifico": [
+                        "Estación",
+                        "Carril"
+                     ]
+                  },
+                  {
+                     "name": "Auditoria",
+                     "motivo_especifico": [
+                        "Inspección y revisión de unidades",
+                        "Cambio de unidad"
+                     ]
+                  },
+                  {
+                     "name": "Informe de incidentes",
+                     "motivo_especifico": [
+                        "Comisión delitos",
+                        "Desviasiones a la operación normal",
+                        "Accidente de las unidades de transporte"
+                     ]
+                  },
+                  {
+                     "name": "Cumplimiento del programa",
+                     "motivo_especifico": [
+                        "Ciclos realizados"
+                     ]
+                  }
+               ],
+               "servicio": [
+                  "ORDINARIO",
+                  "EXPRESS",
+                  "EXPRESS ROSA"
+               ],
+               "ubicacionIntertramo": [
+                  "Las Américas - 1° de Mayo",
+                  "1° de Mayo - San Martín",
+                  "San Martín - Puente de Fierro",
+                  "Puente de Fierro - Casa de Morelos",
+                  "Casa de Morelos - UPE",
+                  "UPE - San Cristóbal",
+                  "San Cristóbal - Agricultura",
+                  "Agricultura - ISSEMYM",
+                  "ISSEMYM - El Carmen",
+                  "El Carmen - Ecatepec",
+                  "Ecatepec - DIF",
+                  "DIF - Guadalupe Victoria",
+                  "Guadalupe Victoria - Venustiano Carranza",
+                  "Venustiano Carranza - FOVISSSTE",
+                  "FOVISSSTE - San Carlos",
+                  "San Carlos - La Laguna",
+                  "La Laguna - Parque Residencial",
+                  "Parque Residencial - Eje 8",
+                  "Eje 8 - 1ra. De Villa",
+                  "1ra. De Villa - Las Flores - Zacuatitla",
+                  "Las Flores - Zacuatitla - San Francisco",
+                  "San Francisco - Héroes - Canosas",
+                  "Héroes - Canosas - Coacalco - Tultepec",
+                  "Coacalco - Tultepec - Exhacienda San Felipe",
+                  "Exhacienda San Felipe - Bosques del Valle",
+                  "Bosques del Valle - Coacalco - Berriozábal",
+                  "Coacalco - Berriozábal - Santa María",
+                  "Santa María - Villas de San José",
+                  "Villas de San José - Mariscala - Real del Bosque",
+                  "Mariscala - Real del Bosque - Fuentes del Valle",
+                  "Fuentes del Valle - De la Cruz - San Mateo",
+                  "De la Cruz - San Mateo - Cartagena",
+                  "Cartagena - Bello Horizonte",
+                  "Bello Horizonte - Bandera - Tultitlan",
+                  "Bandera - Tultitlan - Buenavista",
+                  "Buenavista - COCEM",
+                  "COCEM - Recursos Hidráulicos",
+                  "Recursos Hidráulicos - Chilpan",
+                  "Chilpan - Ciudad Labor",
+                  "Ciudad Labor - Vidriería",
+                  "Vidriería - Lechería",
+                  "Lechería - La Quebrada"
+               ],
+               "consesionaria": [
+                  "TRANSCOMUNICADOR",
+                  "URBANBUS"
+               ],
+               "tipo_falla": [
+                  "Articulación",
+                  "Asiento de usuarios",
+                  "Asiento del operador",
+                  "Baja potencia",
+                  "Bajo voltaje ",
+                  "Balatas",
+                  "Baleros",
+                  "Bandas rotas",
+                  "Barandales",
+                  "Bares",
+                  "Bastón de limitación",
+                  "Baterias",
+                  "Bolsas de aire",
+                  "Botón de puertas",
+                  "Calentamiento",
+                  "Cinturón de seguridad del operador",
+                  "Claxón",
+                  "Código activo de puertas ",
+                  "Códigos activo de stop",
+                  "Compresor",
+                  "Cristal flojo",
+                  "Cristales estrellados",
+                  "Cristales rotos",
+                  "Dirección ",
+                  "Eje Motriz",
+                  "Espejo estrellado",
+                  "Espejo flojo",
+                  "Espejo roto",
+                  "Extintor ",
+                  "Fallebas ",
+                  "Falta de combustible",
+                  "Falta de operadores",
+                  "Falta de unidades ",
+                  "Frenos",
+                  "Fuga de aceite",
+                  "Fuga de aire",
+                  "Fuga de anticongelante",
+                  "Fuga de combustible",
+                  "Limpiadores",
+                  "Limpieza del carril confinado ",
+                  "Luces exteriores",
+                  "Luces interiores",
+                  "Manguera",
+                  "Mobitec",
+                  "Motor",
+                  "Neumático",
+                  "Pasamanos",
+                  "Pedal",
+                  "Percance",
+                  "Potencia",
+                  "Puerta de emergencia",
+                  "Puertas de servicio",
+                  "Radiador",
+                  "Responsable se da a la fuga",
+                  "Retardador",
+                  "Retraso",
+                  "Rolinas ",
+                  "Solicitud de mantenimiento",
+                  "Sucia",
+                  "Supensión levantada ",
+                  "Suspensión caida ",
+                  "Tambor",
+                  "Tapas ",
+                  "Torreta",
+                  "Transmisión",
+                  "Válvula",
+                  "Ventana de puerta de servicio",
+                  "Vigía ",
+                  "Volante",
+                  "Zanfona rota"
+               ],
+               "sentido": [
+                  "NORTE",
+                  "SUR",
+                  "ORIENTE",
+                  "PONIENTE"
+               ],
+               "sancion": [
+                  "Neumático",
+                  "Falleba",
+                  "Zanfona",
+                  "Frenos",
+                  "Cristales",
+                  "Alma de la Carroceria",
+                  "Faros",
+                  "Navegantes",
+                  "Calaveras",
+                  "Mobitec",
+                  "Motor",
+                  "Anticongelante",
+                  "Aceite",
+                  "Bateria",
+                  "Ejes",
+                  "Asientos",
+                  "Grafiti",
+                  "Puertas",
+                  "Boster",
+                  "Rolina",
+                  "Rin",
+                  "Limpia parabrisas",
+                  "Faldón",
+                  "Lienzo de Estructura",
+                  "Gomas de Puertas"
+               ],
+               "propuesta": [
+                  "Mantenimiento Preventivo",
+                  "Mantenimiento Correctivo",
+                  "Cumplimiento de los Cornogramas de actividades"
+               ]
+            },
+            {
+               "name": "Linea1",
+               "supervicion": [
+                  "Personal de la Linea 1"
+               ],
+               "fundamento_legal": [
+                  "Titulo de concesión"
+               ],
+               "estaciones": [
+                  "Ciudad Azteca",
+                  "Quinto Sol",
+                  "Josefa Ortiz",
+                  "Industrial ",
+                  "UNITEC",
+                  "A. Torres",
+                  "Zodiaco",
+                  "Adolfo López Mateos",
+                  "Vocacional 5",
+                  "Valle Ecatepec",
+                  "Las Americas",
+                  "1° de Mayo",
+                  "Hospital",
+                  "Aquiles Serdan",
+                  "Jardines de Morelos",
+                  "Palomas",
+                  "18 de septiembre",
+                  "Central de Abastos",
+                  "Insurgentes",
+                  "Las Torres",
+                  "Hidalgo",
+                  "Cuauhtémoc Sur",
+                  "Cuauhtémoc Norte",
+                  "Esmeralda",
+                  "Ojo de Agua"
+               ],
+               "motivo_directo": [
+                  {
+                     "name": "Falla de operación",
+                     "motivo_especifico": [
+                        "Revisión",
+                        "Incidencia"
+                     ]
+                  },
+                  {
+                     "name": "Reporte de fallas de operación",
+                     "motivo_especifico": [
+                        "Estación",
+                        "Carril"
+                     ]
+                  },
+                  {
+                     "name": "Auditoria",
+                     "motivo_especifico": [
+                        "Inspección y revisión de unidades",
+                        "Cambio de unidad"
+                     ]
+                  },
+                  {
+                     "name": "Informe de incidentes",
+                     "motivo_especifico": [
+                        "Comisión delitos",
+                        "Desviasiones a la operación normal",
+                        "Accidente de las unidades de transporte"
+                     ]
+                  },
+                  {
+                     "name": "Cumplimiento del programa",
+                     "motivo_especifico": [
+                        "Ciclos realizados"
+                     ]
+                  }
+               ],
+               "servicio": [
+                  "ORDINARIO",
+                  "EXPRESS",
+                  "EXPRESS ROSA"
+               ],
+               "ubicacionIntertramo": [
+                  "Ciudad Azteca - Quinto Sol",
+                  "Quinto Sol - Josefa Ortiz",
+                  "Josefa Ortiz - Industrial ",
+                  "Industrial  - UNITEC",
+                  "UNITEC - A. Torres",
+                  "A. Torres - Zodiaco",
+                  "Zodiaco - Adolfo López Mateos",
+                  "Adolfo López Mateos - Vocacional 5",
+                  "Vocacional 5 - Valle Ecatepec",
+                  "Valle Ecatepec - Las Americas",
+                  "Las Americas - 1° de Mayo",
+                  "1° de Mayo - Hospital",
+                  "Hospital - Aquiles Serdan",
+                  "Aquiles Serdan - Jardines de Morelos",
+                  "Jardines de Morelos - Palomas",
+                  "Palomas - 18 de septiembre",
+                  "18 de septiembre - Central de Abastos",
+                  "Central de Abastos - Insurgentes",
+                  "Insurgentes - Las Torres",
+                  "Las Torres - Hidalgo",
+                  "Hidalgo - Cuauhtémoc Sur",
+                  "Cuauhtémoc Sur - Cuauhtémoc Norte",
+                  "Cuauhtémoc Norte - Esmeralda",
+                  "Esmeralda - Ojo de Agua"
+               ],
+               "consesionaria": [
+                  "TRANSMASIVO",
+                  "TRANSBUSMEX"
+               ],
+               "tipo_falla": [
+                  "Articulación",
+                  "Asiento de usuarios",
+                  "Asiento del operador",
+                  "Baja potencia",
+                  "Bajo voltaje ",
+                  "Balatas",
+                  "Baleros",
+                  "Bandas rotas",
+                  "Barandales",
+                  "Bares",
+                  "Bastón de limitación",
+                  "Baterias",
+                  "Bolsas de aire",
+                  "Botón de puertas",
+                  "Calentamiento",
+                  "Cinturón de seguridad del operador",
+                  "Claxón",
+                  "Código activo de puertas ",
+                  "Códigos activo de stop",
+                  "Compresor",
+                  "Cristal flojo",
+                  "Cristales estrellados",
+                  "Cristales rotos",
+                  "Dirección ",
+                  "Eje Motriz",
+                  "Espejo estrellado",
+                  "Espejo flojo",
+                  "Espejo roto",
+                  "Extintor ",
+                  "Fallebas ",
+                  "Falta de combustible",
+                  "Falta de operadores",
+                  "Falta de unidades ",
+                  "Frenos",
+                  "Fuga de aceite",
+                  "Fuga de aire",
+                  "Fuga de anticongelante",
+                  "Fuga de combustible",
+                  "Limpiadores",
+                  "Limpieza del carril confinado ",
+                  "Luces exteriores",
+                  "Luces interiores",
+                  "Manguera",
+                  "Mobitec",
+                  "Motor",
+                  "Neumático",
+                  "Pasamanos",
+                  "Pedal",
+                  "Percance",
+                  "Potencia",
+                  "Puerta de emergencia",
+                  "Puertas de servicio",
+                  "Radiador",
+                  "Responsable se da a la fuga",
+                  "Retardador",
+                  "Retraso",
+                  "Rolinas ",
+                  "Solicitud de mantenimiento",
+                  "Sucia",
+                  "Supensión levantada ",
+                  "Suspensión caida ",
+                  "Tambor",
+                  "Tapas ",
+                  "Torreta",
+                  "Transmisión",
+                  "Válvula",
+                  "Ventana de puerta de servicio",
+                  "Vigía ",
+                  "Volante",
+                  "Zanfona rota"
+               ],
+               "sentido": [
+                  "NORTE",
+                  "SUR",
+                  "ORIENTE",
+                  "PONIENTE"
+               ],
+               "sancion": [
+                  "Neumático",
+                  "Falleba",
+                  "Zanfona",
+                  "Frenos",
+                  "Cristales",
+                  "Alma de la Carroceria",
+                  "Faros",
+                  "Navegantes",
+                  "Calaveras",
+                  "Mobitec",
+                  "Motor",
+                  "Anticongelante",
+                  "Aceite",
+                  "Bateria",
+                  "Ejes",
+                  "Asientos",
+                  "Grafiti",
+                  "Puertas",
+                  "Boster",
+                  "Rolina",
+                  "Rin",
+                  "Limpia parabrisas",
+                  "Faldón",
+                  "Lienzo de Estructura",
+                  "Gomas de Puertas"
+               ],
+               "propuesta": [
+                  "Mantenimiento Preventivo",
+                  "Mantenimiento Correctivo",
+                  "Cumplimiento de los Cornogramas de actividades"
+               ],
+               "tipoincidencia": [
+                  "Desalojo de Unidades",
+                  "Comisión de Delitos",
+                  "Desviasiones de la Operación Normal",
+                  "Desalojo de Unidades Estaciones y Terminales"
+               ]
+            }
+         ]
+      },
+      {
+         "name": "SEGURIDAD",
+         "lineas": [
+            {
+               "name": "Linea1",
+               "estaciones": [
+                  "Ciudad Azteca",
+                  "Quinto Sol",
+                  "Josefa Ortiz",
+                  "Industrial ",
+                  "UNITEC",
+                  "A. Torres",
+                  "Zodiaco",
+                  "Adolfo López Mateos",
+                  "Vocacional 5",
+                  "Valle Ecatepec",
+                  "Las Americas",
+                  "1° de Mayo",
+                  "Hospital",
+                  "Aquiles Serdan",
+                  "Jardines de Morelos",
+                  "Palomas",
+                  "18 de septiembre",
+                  "Central de Abastos",
+                  "Insurgentes",
+                  "Las Torres",
+                  "Hidalgo",
+                  "Cuauhtémoc Sur",
+                  "Cuauhtémoc Norte",
+                  "Esmeralda",
+                  "Ojo de Agua"
+               ],
+               "consesionaria": [
+                  "ANSA",
+                  "ACL"
+               ],
+               "motivo_directo": [
+                  {
+                     "name": "Incidencia",
+                     "motivo_especifico": [
+                        "Informe de incidencia de apertura y cierre"
+                     ]
+                  },
+                  {
+                     "name": "Revisión",
+                     "motivo_especifico": [
+                        "Reporte de incidencias de guardias",
+                        "Reporte de supervisión de guardias"
+                     ]
+                  }
+               ],
+               "tipo_incidencia": [
+                  "Guardia dormido .",
+                  "Cortinas  cerradas ",
+                  "Abandono ",
+                  "Cobro en mano ",
+                  "Estado inconveniente",
+                  "Sin Guardia visible",
+                  "Cortinas abiertas"
+               ],
+               "sancion": [
+                  "Por no atender una emergencia solicitada",
+                  "Por no contar con la herramienta y equipo necesario para atender una emergencia"
+               ],
+               "cierre": [
+                  "Puerta de acople abierta",
+                  "Puerta de acceso principal abierta"
+               ],
+               "apertura": [
+                  "Puerta de acople cerrada",
+                  "Puerta de acceso principal cerrada"
+               ],
+               "observaciones": [
+                  "1 Turno",
+                  "2 Turno",
+                  "3 Turno"
+               ],
+               "salario": [
+                  "25",
+                  "50"
+               ]
+            },
+            {
+               "name": "Linea2",
+               "estaciones": [
+                  "Las Américas",
+                  "1° de Mayo",
+                  "San Martín",
+                  "Puente de Fierro",
+                  "Casa de Morelos",
+                  "UPE",
+                  "San Cristóbal",
+                  "Agricultura",
+                  "ISSEMYM",
+                  "El Carmen",
+                  "Ecatepec",
+                  "DIF",
+                  "Guadalupe Victoria",
+                  "Venustiano Carranza",
+                  "FOVISSSTE",
+                  "San Carlos",
+                  "La Laguna",
+                  "Parque Residencial",
+                  "Eje 8",
+                  "1ra. De Villa",
+                  "Las Flores - Zacuatitla",
+                  "San Francisco",
+                  "Héroes - Canosas",
+                  "Coacalco - Tultepec",
+                  "Exhacienda San Felipe",
+                  "Bosques del Valle",
+                  "Coacalco - Berriozábal",
+                  "Santa María",
+                  "Villas de San José",
+                  "Mariscala - Real del Bosque",
+                  "Fuentes del Valle",
+                  "De la Cruz - San Mateo",
+                  "Cartagena",
+                  "Bello Horizonte",
+                  "Bandera - Tultitlan",
+                  "Buenavista",
+                  "COCEM",
+                  "Recursos Hidráulicos",
+                  "Chilpan",
+                  "Ciudad Labor",
+                  "Vidriería",
+                  "Lechería",
+                  "La Quebrada"
+               ],
+               "consesionaria": [
+                  "ANSA",
+                  "SSPI"
+                              ],
+               "motivo_directo": [
+                  {
+                     "name": "Incidencia",
+                     "motivo_especifico": [
+                        "Informe de incidencia de apertura y cierre"
+                     ]
+                  },
+                  {
+                     "name": "Revisión",
+                     "motivo_especifico": [
+                        "Reporte de incidencias de guardias",
+                        "Reporte de supervisión de guardias"
+                     ]
+                  }
+               ],
+               "tipo_incidencia": [
+                  "Guardia dormido .",
+                  "Cortinas  cerradas ",
+                  "Abandono ",
+                  "Cobro en mano ",
+                  "Estado inconveniente",
+                  "Sin Guardia visible",
+                  "Cortinas abiertas"
+               ],
+               "sancion": [
+                  "Por no atender una emergencia solicitada",
+                  "Por no contar con la herramienta y equipo necesario para atender una emergencia"
+               ],
+               "cierre": [
+                  "Puerta de acople abierta",
+                  "Puerta de acceso principal abierta"
+               ],
+               "apertura": [
+                  "Puerta de acople cerrada",
+                  "Puerta de acceso principal cerrada"
+               ],
+               "observaciones": [
+                  "1 Turno",
+                  "2 Turno",
+                  "3 Turno"
+               ],
+               "salario": [
+                  "25",
+                  "50"
+               ]
+            },
+            {
+               "name": "Linea3",
+               "estaciones": [
+                  "Terminal Pantitlán",
+                  "Calle 6 ",
+                  "El Barquito",
+                  "Maravillas",
+                  "Vicente Riva Palacio",
+                  "Virgencitas",
+                  "Nezahualcóyotl",
+                  "Lago de Chapala",
+                  "Adolfo López Mateos",
+                  "Palacio Municipal",
+                  "Sor Juana Inés de la Cruz",
+                  "El Castillito",
+                  "General Vicente Villada",
+                  "Rayito de Sol",
+                  "Las Mañanitas",
+                  "Rancho Grande",
+                  "Bordo de Xochiaca",
+                  "Las Torres",
+                  "Guerrero Chimalli",
+                  "Las Flores",
+                  "Canteros",
+                  "La Presa",
+                  "Embarcadero",
+                  "Santa Elena",
+                  "Ignacio Manuel Altamirano",
+                  "San Pablo",
+                  "Los Patos",
+                  "Refugio",
+                  "Acuitlapilco",
+                  "Chimalhuacán"
+               ],
+               "consesionaria": [
+                  "SSPI"
+               ],
+               "motivo_directo": [
+                  {
+                     "name": "Incidencia",
+                     "motivo_especifico": [
+                        "Informe de incidencia de apertura y cierre"
+                     ]
+                  },
+                  {
+                     "name": "Revisión",
+                     "motivo_especifico": [
+                        "Reporte de incidencias de guardias",
+                        "Reporte de supervisión de guardias"
+                     ]
+                  }
+               ],
+               "tipo_incidencia": [
+                  "Guardia dormido .",
+                  "Cortinas  cerradas ",
+                  "Abandono ",
+                  "Cobro en mano ",
+                  "Estado inconveniente",
+                  "Sin Guardia visible",
+                  "Cortinas abiertas"
+               ],
+               "sancion": [
+                  "Por no atender una emergencia solicitada",
+                  "Por no contar con la herramienta y equipo necesario para atender una emergencia"
+               ],
+               "cierre": [
+                  "Puerta de acople abierta",
+                  "Puerta de acceso principal abierta"
+               ],
+               "apertura": [
+                  "Puerta de acople cerrada",
+                  "Puerta de acceso principal cerrada"
+               ],
+               "observaciones": [
+                  "1 Turno",
+                  "2 Turno",
+                  "3 Turno"
+               ],
+               "salario": [
+                  "25",
+                  "50"
+               ]
+            },
+            {
+               "name": "Linea4",
+               "estaciones": [
+                  "CETRAM Indios Verdes ",
+                  "Periférico",
+                  "Puente Martín Carrera",
+                  "Clínica 76",
+                  "Vía Morelos",
+                  "Monumento a Morelos",
+                  "5 de Febrero",
+                  "Santa Clara",
+                  "Cerro Gordo",
+                  "Servicios Administrativos",
+                  "Clínica 93",
+                  "Industrial",
+                  "Quinta Aparicion ",
+                  "Tulpetlac",
+                  "Siervo de la Nación",
+                  "Nuevo Laredo",
+                  "Laureles",
+                  "La Viga",
+                  "San Cristóbal",
+                  "Puente de Fierro",
+                  "Izcalli Ecatepec",
+                  "Heroes 4ta sección",
+                  "Izcalli Palomas",
+                  "Central de Abastos",
+                  "Ejido Santo Tomas",
+                  "Santo Tomas Chiconautla",
+                  "Revolución",
+                  "Margarita F Ayala",
+                  "Flores",
+                  "Bosques",
+                  "Terminal Universidad Mexiquense Del Bicentenario"
+               ],
+               "consesionaria": [
+                  "SSPI"
+               ],
+               "motivo_directo": [
+                  {
+                     "name": "Incidencia",
+                     "motivo_especifico": [
+                        "Informe de incidencia de apertura y cierre"
+                     ]
+                  },
+                  {
+                     "name": "Revisión",
+                     "motivo_especifico": [
+                        "Reporte de incidencias de guardias",
+                        "Reporte de supervisión de guardias"
+                     ]
+                  }
+               ],
+               "tipo_incidencia": [
+                  "Guardia dormido .",
+                  "Cortinas  cerradas ",
+                  "Abandono ",
+                  "Cobro en mano ",
+                  "Estado inconveniente",
+                  "Sin Guardia visible",
+                  "Cortinas abiertas"
+               ],
+               "sancion": [
+                  "Por no atender una emergencia solicitada",
+                  "Por no contar con la herramienta y equipo necesario para atender una emergencia"
+               ],
+               "cierre": [
+                  "Puerta de acople abierta",
+                  "Puerta de acceso principal abierta"
+               ],
+               "apertura": [
+                  "Puerta de acople cerrada",
+                  "Puerta de acceso principal cerrada"
+               ],
+               "observaciones": [
+                  "1 Turno",
+                  "2 Turno",
+                  "3 Turno"
+               ],
+               "salario": [
+                  "25",
+                  "50"
+               ]
+            }
+         ]
+      },
+      {
+         "name": "INFRAESTRUCTURA",
+         "lineas": [
+            {
+               "name": "Linea1",
+               "fundamento": [
+                  "Titulo 8, aplicación de sanciones y obligaciones"
+               ],
+               "estaciones": [
+                  "Ciudad Azteca",
+                  "Quinto Sol",
+                  "Josefa Ortiz",
+                  "Industrial ",
+                  "UNITEC",
+                  "A. Torres",
+                  "Zodiaco",
+                  "Adolfo López Mateos",
+                  "Vocacional 5",
+                  "Valle Ecatepec",
+                  "Las Americas",
+                  "1° de Mayo",
+                  "Hospital",
+                  "Aquiles Serdan",
+                  "Jardines de Morelos",
+                  "Palomas",
+                  "18 de septiembre",
+                  "Central de Abastos",
+                  "Insurgentes",
+                  "Las Torres",
+                  "Hidalgo",
+                  "Cuauhtémoc Sur",
+                  "Cuauhtémoc Norte",
+                  "Esmeralda",
+                  "Ojo de Agua"
+               ],
+               "empresa": [
+                  "TRANSBUSMEX",
+                  "OTRO"
+               ],
+               "motivo_directo": [
+                  {
+                     "name": "Supervisión en infraestructura",
+                     "motivo_especifico": [
+                        "Supervisión en los trabajos de mejora a la infraestructura por parte del concesionario y/o empresas responsables",
+                        "Revisión del estado en el que se encuentra todos los elementos que conforman la infraestructura de estaciones, terminal y carril confinado",
+                        "Seguimiento a la atención, a las incidencias reportadas a los concesionarioscy/o empresas responsables de la infraestructura"
+                     ]
+                  }
+               ],
+               "tipo_incidencia": [
+                  "Captura de información",
+                  "Techo de site",
+                  "Tensores",
+                  "Vigas",
+                  "Puertas de servicio ",
+                  "Puertas",
+                  "Cortinas corredizas",
+                  "Plataforma",
+                  "Rampas de emergencia",
+                  "Rampa de acceso ",
+                  "Mupy ",
+                  "Mamparas",
+                  "Malla ciclónica",
+                  "Malla de celosía ",
+                  "Señaléticas",
+                  "Mapa de guía",
+                  "Mapa de ruta",
+                  "Mapa de ubicación ",
+                  "Hojas de puertas",
+                  "Carril confinado",
+                  "Delimitadores de carril",
+                  "Boyas",
+                  "Botones",
+                  "Vialetas",
+                  "Bolardos ",
+                  "Dovelas plásticas, concreto",
+                  "Señalamiento horizontal",
+                  "Balizamiento de carril",
+                  "Señalamiento vertical",
+                  "Semaforización ",
+                  "Luminarias",
+                  "Reflectores",
+                  "Extintores",
+                  "Sistema eléctrico",
+                  "Instalaciones hidráulicas ",
+                  "Instalaciones sanitarias ",
+                  "Herrería ",
+                  "Barandales ",
+                  "Rejillas irving",
+                  "Áreas de reunión en caso de sismo",
+                  "Sub estaciones ",
+                  "Canaletas de agua ",
+                  "Tinacos",
+                  "Cuarto de servicio/sanitario",
+                  "Paletas de paro",
+                  "Balizamiento interno ",
+                  "Cámaras de videovigilancia ",
+                  "Botón de pánico",
+                  "Candados",
+                  "Cadenas",
+                  "Chapas ",
+                  "Llaves",
+                  "Acrílico detrás de las VRT",
+                  "Bajadas de agua pluvial",
+                  "Tinacos",
+                  "Pasarelas",
+                  "Encausador",
+                  "Poste de antena satelital",
+                  "Puerta del site",
+                  "Ventana louver",
+                  "Pararrayos ",
+                  "Jardinería ",
+                  "Equipamiento de recarga",
+                  "Equipamiento de acceso",
+                  "Equipamiento de seguridad",
+                  "Equipamiento de comunicación"
+               ],
+               "sentido": [
+                  "NORTE",
+                  "SUR",
+                  "ORIENTE",
+                  "PONIENTE"
+               ],
+               "sancion": [
+                  "TITULO DE CONCESIÓN"
+               ],
+               "Monto": [
+                  "TITULO DE CONCESIÓN"
+               ],
+               "salario": [
+                  "25",
+                  "50"
+               ]
+            },
+            {
+               "name": "Linea2",
+               "fundamento": [
+                  "Titulo 8, aplicación de sanciones y obligaciones"
+               ],
+               "estaciones": [
+                  "Las Américas",
+                  "1° de Mayo",
+                  "San Martín",
+                  "Puente de Fierro",
+                  "Casa de Morelos",
+                  "UPE",
+                  "San Cristóbal",
+                  "Agricultura",
+                  "ISSEMYM",
+                  "El Carmen",
+                  "Ecatepec",
+                  "DIF",
+                  "Guadalupe Victoria",
+                  "Venustiano Carranza",
+                  "FOVISSSTE",
+                  "San Carlos",
+                  "La Laguna",
+                  "Parque Residencial",
+                  "Eje 8",
+                  "1ra. De Villa",
+                  "Las Flores - Zacuatitla",
+                  "San Francisco",
+                  "Héroes - Canosas",
+                  "Coacalco - Tultepec",
+                  "Exhacienda San Felipe",
+                  "Bosques del Valle",
+                  "Coacalco - Berriozábal",
+                  "Santa María",
+                  "Villas de San José",
+                  "Mariscala - Real del Bosque",
+                  "Fuentes del Valle",
+                  "De la Cruz - San Mateo",
+                  "Cartagena",
+                  "Bello Horizonte",
+                  "Bandera - Tultitlan",
+                  "Buenavista",
+                  "COCEM",
+                  "Recursos Hidráulicos",
+                  "Chilpan",
+                  "Ciudad Labor",
+                  "Vidriería",
+                  "Lechería",
+                  "La Quebrada"
+               ],
+               "empresa": [
+                  "CERVICATEX",
+                  "URBANBUS",
+                  "OTRO"
+               ],
+               "motivo_directo": [
+                  {
+                     "name": "Supervisión en infraestructura",
+                     "motivo_especifico": [
+                        "Supervisión en los trabajos de mejora a la infraestructura por parte del concesionario y/o empresas responsables",
+                        "Revisión del estado en el que se encuentra todos los elementos que conforman la infraestructura de estaciones, terminal y carril confinado",
+                        "Seguimiento a la atención, a las incidencias reportadas a los concesionarioscy/o empresas responsables de la infraestructura"
+                     ]
+                  }
+               ],
+               "tipo_incidencia": [
+                  "Captura de información",
+                  "Techo de site",
+                  "Tensores",
+                  "Vigas",
+                  "Puertas de servicio ",
+                  "Puertas",
+                  "Cortinas corredizas",
+                  "Plataforma",
+                  "Rampas de emergencia",
+                  "Rampa de acceso ",
+                  "Mupy ",
+                  "Mamparas",
+                  "Malla ciclónica",
+                  "Malla de celosía ",
+                  "Señaléticas",
+                  "Mapa de guía",
+                  "Mapa de ruta",
+                  "Mapa de ubicación ",
+                  "Hojas de puertas",
+                  "Carril confinado",
+                  "Delimitadores de carril",
+                  "Boyas",
+                  "Botones",
+                  "Vialetas",
+                  "Bolardos ",
+                  "Dovelas plásticas, concreto",
+                  "Señalamiento horizontal",
+                  "Balizamiento de carril",
+                  "Señalamiento vertical",
+                  "Semaforización ",
+                  "Luminarias",
+                  "Reflectores",
+                  "Extintores",
+                  "Sistema eléctrico",
+                  "Instalaciones hidráulicas ",
+                  "Instalaciones sanitarias ",
+                  "Herrería ",
+                  "Barandales ",
+                  "Rejillas irving",
+                  "Áreas de reunión en caso de sismo",
+                  "Sub estaciones ",
+                  "Canaletas de agua ",
+                  "Tinacos",
+                  "Cuarto de servicio/sanitario",
+                  "Paletas de paro",
+                  "Balizamiento interno ",
+                  "Cámaras de videovigilancia ",
+                  "Botón de pánico",
+                  "Candados",
+                  "Cadenas",
+                  "Chapas ",
+                  "Llaves",
+                  "Acrílico detrás de las VRT",
+                  "Bajadas de agua pluvial",
+                  "Tinacos",
+                  "Pasarelas",
+                  "Encausador",
+                  "Poste de antena satelital",
+                  "Puerta del site",
+                  "Ventana louver",
+                  "Pararrayos ",
+                  "Jardinería ",
+                  "Equipamiento de recarga",
+                  "Equipamiento de acceso",
+                  "Equipamiento de seguridad",
+                  "Equipamiento de comunicación"
+               ],
+               "sentido": [
+                  "NORTE",
+                  "SUR",
+                  "ORIENTE",
+                  "PONIENTE"
+               ],
+               "sancion": [
+                  "TITULO DE CONCESIÓN"
+               ],
+               "Monto": [
+                  "TITULO DE CONCESIÓN"
+               ],
+               "salario": [
+                  "25",
+                  "50"
+               ]
+            },
+            {
+               "name": "Linea3",
+               "fundamento": [
+                  "Titulo 8, aplicación de sanciones y obligaciones"
+               ],
+               "estaciones": [
+                  "Terminal Pantitlán",
+                  "Calle 6 ",
+                  "El Barquito",
+                  "Maravillas",
+                  "Vicente Riva Palacio",
+                  "Virgencitas",
+                  "Nezahualcóyotl",
+                  "Lago de Chapala",
+                  "Adolfo López Mateos",
+                  "Palacio Municipal",
+                  "Sor Juana Inés de la Cruz",
+                  "El Castillito",
+                  "General Vicente Villada",
+                  "Rayito de Sol",
+                  "Las Mañanitas",
+                  "Rancho Grande",
+                  "Bordo de Xochiaca",
+                  "Las Torres",
+                  "Guerrero Chimalli",
+                  "Las Flores",
+                  "Canteros",
+                  "La Presa",
+                  "Embarcadero",
+                  "Santa Elena",
+                  "Ignacio Manuel Altamirano",
+                  "San Pablo",
+                  "Los Patos",
+                  "Refugio",
+                  "Acuitlapilco",
+                  "Chimalhuacán"
+               ],
+               "empresa": [
+                  "CERVICATEX",
+                  "PKFY",
+                  "OTRO"
+               ],
+               "motivo_directo": [
+                  {
+                     "name": "Supervisión en infraestructura",
+                     "motivo_especifico": [
+                        "Supervisión en los trabajos de mejora a la infraestructura por parte del concesionario y/o empresas responsables",
+                        "Revisión del estado en el que se encuentra todos los elementos que conforman la infraestructura de estaciones, terminal y carril confinado",
+                        "Seguimiento a la atención, a las incidencias reportadas a los concesionarioscy/o empresas responsables de la infraestructura"
+                     ]
+                  }
+               ],
+               "tipo_incidencia": [
+                  "Captura de información",
+                  "Techo de site",
+                  "Tensores",
+                  "Vigas",
+                  "Puertas de servicio ",
+                  "Puertas",
+                  "Cortinas corredizas",
+                  "Plataforma",
+                  "Rampas de emergencia",
+                  "Rampa de acceso ",
+                  "Mupy ",
+                  "Mamparas",
+                  "Malla ciclónica",
+                  "Malla de celosía ",
+                  "Señaléticas",
+                  "Mapa de guía",
+                  "Mapa de ruta",
+                  "Mapa de ubicación ",
+                  "Hojas de puertas",
+                  "Carril confinado",
+                  "Delimitadores de carril",
+                  "Boyas",
+                  "Botones",
+                  "Vialetas",
+                  "Bolardos ",
+                  "Dovelas plásticas, concreto",
+                  "Señalamiento horizontal",
+                  "Balizamiento de carril",
+                  "Señalamiento vertical",
+                  "Semaforización ",
+                  "Luminarias",
+                  "Reflectores",
+                  "Extintores",
+                  "Sistema eléctrico",
+                  "Instalaciones hidráulicas ",
+                  "Instalaciones sanitarias ",
+                  "Herrería ",
+                  "Barandales ",
+                  "Rejillas irving",
+                  "Áreas de reunión en caso de sismo",
+                  "Sub estaciones ",
+                  "Canaletas de agua ",
+                  "Tinacos",
+                  "Cuarto de servicio/sanitario",
+                  "Paletas de paro",
+                  "Balizamiento interno ",
+                  "Cámaras de videovigilancia ",
+                  "Botón de pánico",
+                  "Candados",
+                  "Cadenas",
+                  "Chapas ",
+                  "Llaves",
+                  "Acrílico detrás de las VRT",
+                  "Bajadas de agua pluvial",
+                  "Tinacos",
+                  "Pasarelas",
+                  "Encausador",
+                  "Poste de antena satelital",
+                  "Puerta del site",
+                  "Ventana louver",
+                  "Pararrayos ",
+                  "Jardinería ",
+                  "Equipamiento de recarga",
+                  "Equipamiento de acceso",
+                  "Equipamiento de seguridad",
+                  "Equipamiento de comunicación"
+               ],
+               "sentido": [
+                  "NORTE",
+                  "SUR",
+                  "ORIENTE",
+                  "PONIENTE"
+               ],
+               "sancion": [
+                  "TITULO DE CONCESIÓN"
+               ],
+               "Monto": [
+                  "TITULO DE CONCESIÓN"
+               ],
+               "salario": [
+                  "25",
+                  "50"
+               ]
+            },
+            {
+               "name": "Linea4",
+               "fundamento": [
+                  "Titulo 8, aplicación de sanciones y obligaciones"
+               ],
+               "estaciones": [
+                  "CETRAM Indios Verdes ",
+                  "Periférico",
+                  "Puente Martín Carrera",
+                  "Clínica 76",
+                  "Vía Morelos",
+                  "Monumento a Morelos",
+                  "5 de Febrero",
+                  "Santa Clara",
+                  "Cerro Gordo",
+                  "Servicios Administrativos",
+                  "Clínica 93",
+                  "Industrial",
+                  "Quinta Aparicion ",
+                  "Tulpetlac",
+                  "Siervo de la Nación",
+                  "Nuevo Laredo",
+                  "Laureles",
+                  "La Viga",
+                  "San Cristóbal",
+                  "Puente de Fierro",
+                  "Izcalli Ecatepec",
+                  "Heroes 4ta sección",
+                  "Izcalli Palomas",
+                  "Central de Abastos",
+                  "Ejido Santo Tomas",
+                  "Santo Tomas Chiconautla",
+                  "Revolución",
+                  "Margarita F Ayala",
+                  "Flores",
+                  "Bosques",
+                  "Terminal Universidad Mexiquense Del Bicentenario"
+               ],
+               "empresa": [
+                  "OTRO"
+               ],
+               "motivo_directo": [
+                  {
+                     "name": "Supervisión en infraestructura",
+                     "motivo_especifico": [
+                        "Supervisión en los trabajos de mejora a la infraestructura por parte del concesionario y/o empresas responsables",
+                        "Revisión del estado en el que se encuentra todos los elementos que conforman la infraestructura de estaciones, terminal y carril confinado",
+                        "Seguimiento a la atención, a las incidencias reportadas a los concesionarioscy/o empresas responsables de la infraestructura"
+                     ]
+                  }
+               ],
+               "tipo_incidencia": [
+                  "Captura de información",
+                  "Techo de site",
+                  "Tensores",
+                  "Vigas",
+                  "Puertas de servicio ",
+                  "Puertas",
+                  "Cortinas corredizas",
+                  "Plataforma",
+                  "Rampas de emergencia",
+                  "Rampa de acceso ",
+                  "Mupy ",
+                  "Mamparas",
+                  "Malla ciclónica",
+                  "Malla de celosía ",
+                  "Señaléticas",
+                  "Mapa de guía",
+                  "Mapa de ruta",
+                  "Mapa de ubicación ",
+                  "Hojas de puertas",
+                  "Carril confinado",
+                  "Delimitadores de carril",
+                  "Boyas",
+                  "Botones",
+                  "Vialetas",
+                  "Bolardos ",
+                  "Dovelas plásticas, concreto",
+                  "Señalamiento horizontal",
+                  "Balizamiento de carril",
+                  "Señalamiento vertical",
+                  "Semaforización ",
+                  "Luminarias",
+                  "Reflectores",
+                  "Extintores",
+                  "Sistema eléctrico",
+                  "Instalaciones hidráulicas ",
+                  "Instalaciones sanitarias ",
+                  "Herrería ",
+                  "Barandales ",
+                  "Rejillas irving",
+                  "Áreas de reunión en caso de sismo",
+                  "Sub estaciones ",
+                  "Canaletas de agua ",
+                  "Tinacos",
+                  "Cuarto de servicio/sanitario",
+                  "Paletas de paro",
+                  "Balizamiento interno ",
+                  "Cámaras de videovigilancia ",
+                  "Botón de pánico",
+                  "Candados",
+                  "Cadenas",
+                  "Chapas ",
+                  "Llaves",
+                  "Acrílico detrás de las VRT",
+                  "Bajadas de agua pluvial",
+                  "Tinacos",
+                  "Pasarelas",
+                  "Encausador",
+                  "Poste de antena satelital",
+                  "Puerta del site",
+                  "Ventana louver",
+                  "Pararrayos ",
+                  "Jardinería ",
+                  "Equipamiento de recarga",
+                  "Equipamiento de acceso",
+                  "Equipamiento de seguridad",
+                  "Equipamiento de comunicación"
+               ],
+               "sentido": [
+                  "NORTE",
+                  "SUR",
+                  "ORIENTE",
+                  "PONIENTE"
+               ],
+               "sancion": [
+                  "TITULO DE CONCESIÓN"
+               ],
+               "Monto": [
+                  "DEFAULT"
+               ],
+               "salario": [
+                  "25",
+                  "50"
+               ]
+            }
+         ]
+      },
+      {
+         "name": "RECAUDO",
+         "lineas": [
+            {
+               "name": "Linea1",
+               "estaciones": [
+                  "Ciudad Azteca",
+                  "Quinto Sol",
+                  "Josefa Ortiz",
+                  "Industrial ",
+                  "UNITEC",
+                  "A. Torres",
+                  "Zodiaco",
+                  "Adolfo López Mateos",
+                  "Vocacional 5",
+                  "Valle Ecatepec",
+                  "Las Americas",
+                  "1° de Mayo",
+                  "Hospital",
+                  "Aquiles Serdan",
+                  "Jardines de Morelos",
+                  "Palomas",
+                  "18 de septiembre",
+                  "Central de Abastos",
+                  "Insurgentes",
+                  "Las Torres",
+                  "Hidalgo",
+                  "Cuauhtémoc Sur",
+                  "Cuauhtémoc Norte",
+                  "Esmeralda",
+                  "Ojo de Agua"
+               ],
+               "empresa": [
+                  "TRANSBUSMEX",
+                  "OTRO"
+               ],
+               "motivo_directo": [
+                  {
+                     "name": "Incidencias relevantes de recaudo",
+                     "motivo_especifico": [
+                        "Supervisión de las incidencias relevantes en las fallas en los equipos de recaudo"
+                     ]
+                  },
+                  {
+                     "name": "Supervisión de mantenimiento y fallas menores detectadas",
+                     "motivo_especifico": [
+                        "Seguimiento a las incidencias relevantes en las fallas en los equipos de recaudo"
+                     ]
+                  },
+                  {
+                     "name": "Concentrado de fallas de recaudo",
+                     "motivo_especifico": [
+                        "Supervisión del correcto funcionamiento y mantenimiento a los equipos de recaudo"
+                     ]
+                  },
+                  {
+                     "name": "Evaluación de los equipos de recaudo",
+                     "motivo_especifico": [
+                        "Informe diario de las fallas detectadas en los equipos de recaudo",
+                        "En base a la supervisión diaria, se informara del estado en que se encuentran los equipos de recaudo"
+                     ]
+                  }
+               ],
+               "tipo_equipo": [
+                  "ATM",
+                  "VRT",
+                  "GARITA",
+                  "TORNIQUETE",
+                  "BOTÒN DE PANICO"
+               ],
+               "tipo_falla": [
+                  "Maquina pasmada",
+                  "Maquina apagada",
+                  "Maquina fuera de servicio",
+                  "Torniquete apagado",
+                  "Torniquete liberado",
+                  "Acepta solo monedas",
+                  "Acepta solo billetes",
+                  "Otro"
+               ],
+               "sancion": [
+                  "TITULO DE CONCESIÓN"
+               ],
+               "Monto": [
+                  "TITULO DE CONCESIÓN"
+               ],
+               "salario": [
+                  "25",
+                  "50"
+               ]
+            },
+            {
+               "name": "Linea2",
+               "estaciones": [
+                  "Las Américas",
+                  "1° de Mayo",
+                  "San Martín",
+                  "Puente de Fierro",
+                  "Casa de Morelos",
+                  "UPE",
+                  "San Cristóbal",
+                  "Agricultura",
+                  "ISSEMYM",
+                  "El Carmen",
+                  "Ecatepec",
+                  "DIF",
+                  "Guadalupe Victoria",
+                  "Venustiano Carranza",
+                  "FOVISSSTE",
+                  "San Carlos",
+                  "La Laguna",
+                  "Parque Residencial",
+                  "Eje 8",
+                  "1ra. De Villa",
+                  "Las Flores - Zacuatitla",
+                  "San Francisco",
+                  "Héroes - Canosas",
+                  "Coacalco - Tultepec",
+                  "Exhacienda San Felipe",
+                  "Bosques del Valle",
+                  "Coacalco - Berriozábal",
+                  "Santa María",
+                  "Villas de San José",
+                  "Mariscala - Real del Bosque",
+                  "Fuentes del Valle",
+                  "De la Cruz - San Mateo",
+                  "Cartagena",
+                  "Bello Horizonte",
+                  "Bandera - Tultitlan",
+                  "Buenavista",
+                  "COCEM",
+                  "Recursos Hidráulicos",
+                  "Chilpan",
+                  "Ciudad Labor",
+                  "Vidriería",
+                  "Lechería",
+                  "La Quebrada"
+               ],
+               "empresa": [
+                  "TRANSBUSMEX",
+                  "OTRO"
+               ],
+               "motivo_directo": [
+                  {
+                     "name": "Incidencias relevantes de recaudo",
+                     "motivo_especifico": [
+                        "Supervisión de las incidencias relevantes en las fallas en los equipos de recaudo"
+                     ]
+                  },
+                  {
+                     "name": "Supervisión de mantenimiento y fallas menores detectadas",
+                     "motivo_especifico": [
+                        "Seguimiento a las incidencias relevantes en las fallas en los equipos de recaudo"
+                     ]
+                  },
+                  {
+                     "name": "Concentrado de fallas de recaudo",
+                     "motivo_especifico": [
+                        "Supervisión del correcto funcionamiento y mantenimiento a los equipos de recaudo"
+                     ]
+                  },
+                  {
+                     "name": "Evaluación de los equipos de recaudo",
+                     "motivo_especifico": [
+                        "Informe diario de las fallas detectadas en los equipos de recaudo",
+                        "En base a la supervisión diaria, se informara del estado en que se encuentran los equipos de recaudo"
+                     ]
+                  }
+               ],
+               "tipo_equipo": [
+                  "ATM",
+                  "VRT",
+                  "GARITA",
+                  "TORNIQUETE",
+                  "BOTÒN DE PANICO"
+               ],
+               "tipo_falla": [
+                  "Maquina pasmada",
+                  "Maquina apagada",
+                  "Maquina fuera de servicio",
+                  "Torniquete apagado",
+                  "Torniquete liberado",
+                  "Acepta solo monedas",
+                  "Acepta solo billetes",
+                  "Otro"
+               ],
+               "sancion": [
+                  "TITULO DE CONCESIÓN"
+               ],
+               "Monto": [
+                  "TITULO DE CONCESIÓN"
+               ],
+               "salario": [
+                  "25",
+                  "50"
+               ]
+            },
+            {
+               "name": "Linea3",
+               "estaciones": [
+                  "Terminal Pantitlán",
+                  "Calle 6 ",
+                  "El Barquito",
+                  "Maravillas",
+                  "Vicente Riva Palacio",
+                  "Virgencitas",
+                  "Nezahualcóyotl",
+                  "Lago de Chapala",
+                  "Adolfo López Mateos",
+                  "Palacio Municipal",
+                  "Sor Juana Inés de la Cruz",
+                  "El Castillito",
+                  "General Vicente Villada",
+                  "Rayito de Sol",
+                  "Las Mañanitas",
+                  "Rancho Grande",
+                  "Bordo de Xochiaca",
+                  "Las Torres",
+                  "Guerrero Chimalli",
+                  "Las Flores",
+                  "Canteros",
+                  "La Presa",
+                  "Embarcadero",
+                  "Santa Elena",
+                  "Ignacio Manuel Altamirano",
+                  "San Pablo",
+                  "Los Patos",
+                  "Refugio",
+                  "Acuitlapilco",
+                  "Chimalhuacán"
+               ],
+               "empresa": [
+                  "TRANSBUSMEX",
+                  "OTRO"
+               ],
+               "motivo_directo": [
+                  {
+                     "name": "Incidencias relevantes de recaudo",
+                     "motivo_especifico": [
+                        "Supervisión de las incidencias relevantes en las fallas en los equipos de recaudo"
+                     ]
+                  },
+                  {
+                     "name": "Supervisión de mantenimiento y fallas menores detectadas",
+                     "motivo_especifico": [
+                        "Seguimiento a las incidencias relevantes en las fallas en los equipos de recaudo"
+                     ]
+                  },
+                  {
+                     "name": "Concentrado de fallas de recaudo",
+                     "motivo_especifico": [
+                        "Supervisión del correcto funcionamiento y mantenimiento a los equipos de recaudo"
+                     ]
+                  },
+                  {
+                     "name": "Evaluación de los equipos de recaudo",
+                     "motivo_especifico": [
+                        "Informe diario de las fallas detectadas en los equipos de recaudo",
+                        "En base a la supervisión diaria, se informara del estado en que se encuentran los equipos de recaudo"
+                     ]
+                  }
+               ],
+               "tipo_equipo": [
+                  "ATM",
+                  "VRT",
+                  "GARITA",
+                  "TORNIQUETE",
+                  "BOTÒN DE PANICO"
+               ],
+               "tipo_falla": [
+                  "Maquina pasmada",
+                  "Maquina apagada",
+                  "Maquina fuera de servicio",
+                  "Torniquete apagado",
+                  "Torniquete liberado",
+                  "Acepta solo monedas",
+                  "Acepta solo billetes",
+                  "Otro"
+               ],
+               "sancion": [
+                  "TITULO DE CONCESIÓN"
+               ],
+               "Monto": [
+                  "TITULO DE CONCESIÓN"
+               ],
+               "salario": [
+                  "25",
+                  "50"
+               ]
+            },
+            {
+               "name": "Linea4",
+               "estaciones": [
+                  "CETRAM Indios Verdes ",
+                  "Periférico",
+                  "Puente Martín Carrera",
+                  "Clínica 76",
+                  "Vía Morelos",
+                  "Monumento a Morelos",
+                  "5 de Febrero",
+                  "Santa Clara",
+                  "Cerro Gordo",
+                  "Servicios Administrativos",
+                  "Clínica 93",
+                  "Industrial",
+                  "Quinta Aparicion ",
+                  "Tulpetlac",
+                  "Siervo de la Nación",
+                  "Nuevo Laredo",
+                  "Laureles",
+                  "La Viga",
+                  "San Cristóbal",
+                  "Puente de Fierro",
+                  "Izcalli Ecatepec",
+                  "Heroes 4ta sección",
+                  "Izcalli Palomas",
+                  "Central de Abastos",
+                  "Ejido Santo Tomas",
+                  "Santo Tomas Chiconautla",
+                  "Revolución",
+                  "Margarita F Ayala",
+                  "Flores",
+                  "Bosques",
+                  "Terminal Universidad Mexiquense Del Bicentenario"
+               ],
+               "empresa": [
+                  "TRANSBUSMEX",
+                  "OTRO"
+               ],
+               "motivo_directo": [
+                  {
+                     "name": "Incidencias relevantes de recaudo",
+                     "motivo_especifico": [
+                        "Supervisión de las incidencias relevantes en las fallas en los equipos de recaudo"
+                     ]
+                  },
+                  {
+                     "name": "Supervisión de mantenimiento y fallas menores detectadas",
+                     "motivo_especifico": [
+                        "Seguimiento a las incidencias relevantes en las fallas en los equipos de recaudo"
+                     ]
+                  },
+                  {
+                     "name": "Concentrado de fallas de recaudo",
+                     "motivo_especifico": [
+                        "Supervisión del correcto funcionamiento y mantenimiento a los equipos de recaudo"
+                     ]
+                  },
+                  {
+                     "name": "Evaluación de los equipos de recaudo",
+                     "motivo_especifico": [
+                        "Informe diario de las fallas detectadas en los equipos de recaudo",
+                        "En base a la supervisión diaria, se informara del estado en que se encuentran los equipos de recaudo"
+                     ]
+                  }
+               ],
+               "tipo_equipo": [
+                  "ATM",
+                  "VRT",
+                  "GARITA",
+                  "TORNIQUETE",
+                  "BOTÒN DE PANICO"
+               ],
+               "tipo_falla": [
+                  "Maquina pasmada",
+                  "Maquina apagada",
+                  "Maquina fuera de servicio",
+                  "Torniquete apagado",
+                  "Torniquete liberado",
+                  "Acepta solo monedas",
+                  "Acepta solo billetes",
+                  "Otro"
+               ],
+               "sancion": [
+                  "TITULO DE CONCESIÓN"
+               ],
+               "Monto": [
+                  "TITULO DE CONCESIÓN"
+               ],
+               "salario": [
+                  "25",
+                  "50"
+               ]
+            }
+         ]
+      }
+   ]
+}

@@ -1,0 +1,56 @@
+ion-content {
+  height: 100%;
+  width: 100%;
+  ion-grid {
+    padding: 1rem;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: #eff1f2;
+  }
+  .icons {
+    height: 3rem;
+    width: 3rem;
+    color:lightblue;
+  }
+  .middle-row { 
+    width: 90%;
+    position: relative;
+    button {
+      position: relative;
+      background-color: white;
+      border-radius: 3px;
+      height: 100%;
+      width: 100%;
+    }
+    .primaryButton {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 7% 21%;
+      background-position-y: 35%;
+      p {
+        color: #344653;
+        font-size: 2.5rem;
+      }
+    }
+    .secondButton {
+      height: 50%;
+      padding-top: 2rem;
+       background-position: center;
+      background-repeat: no-repeat;
+      background-size: 20% 25%;
+      background-position-y: 35%;
+      >p {
+        color: #344653;
+        font-size: 1.5rem;
+      }
+      .subtext {
+        color: #344653;
+        font-size: 2em;
+      }
+    }
+  }
+  .secondCol {
+    height: 100%;
+  }
+}

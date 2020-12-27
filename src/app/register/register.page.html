@@ -1,0 +1,467 @@
+<ion-content>
+  <ion-grid no-padding>
+    <ion-row class="middle-row" no-padding>
+      <ion-col size="10.392" no-padding  >
+  <form #userlogin="ngForm" (ngSubmit)="onClickSubmit(userlogin)" >
+    <mat-form-field>
+      <mat-label>AREA</mat-label>
+      <mat-select required  id="area" (ngModelChange)="loadLineas($event)" name="area" ngModel>
+        <mat-option>Selecciona</mat-option>
+        <mat-option value="{{a.name}}" *ngFor="let a of areas">{{a.name}}</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+
+    <!-- Operaciones  -->
+    <div *ngIf="area.name==='OPERACION'">
+    <mat-form-field>
+      <mat-label for="date-input">FECHA CAPTURA</mat-label>
+      <input required matInput id="fecha" type="date" ngModel value="{{myDate}}" name="fecha_captura" placeholder="date">
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label for="date-input">HORA CAPTURA</mat-label>
+      <input required matInput show-header="false" moment-picker="@NGModel2" name="hora_captura" ngModel format="HH:mm"
+        today="true" min-view="day" maxlength="5 " id="time" placeholder="HH:mm" />
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>LINEA</mat-label>
+      <mat-select required id="linea" name="linea" ngModel ng-model (ngModelChange)="loadbasicos($event)">
+        <mat-option>Selecciona</mat-option>
+        <mat-option value="{{linea.name}}" *ngFor="let linea of area.lineas">{{linea.name}}</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label for="select1">ESTACIÓN</mat-label>
+      <mat-select required id="estacion" name="estacion" ngModel>
+        <mat-option>Selecciona</mat-option>
+        <mat-option value="{{l}}" *ngFor="let l of linea.estaciones">{{l}}</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+
+
+    <mat-form-field>
+      <mat-label>SUPERVISOR</mat-label>
+      <input required matInput type="text" id="supervisor" name="supervisor" ngModel placeholder="Nombre Supervisor"
+        autocomplete="Supervisor">
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>MOTIVO DIRECTO</mat-label>
+      <mat-select required id="motivo_directo" ngModel name="motivo_directo" (ngModelChange)="loadMotivos($event)">
+        <mat-option>Selecciona</mat-option>
+        <mat-option value='{{m.name}}' *ngFor="let m of linea.motivo_directo">{{m.name}}</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label>MOTIVO ESPECIFICO</mat-label>
+      <mat-select required id="motivo_especifico" ngModel name="motivo_especifico">
+        <mat-option>Selecciona</mat-option>
+        <mat-option value='{{e}}' *ngFor="let e of motivo.motivo_especifico">{{e}}</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label for="date-input">FECHA REAL DEL EVENTO</mat-label>
+      <input required matInput ngModel id="fecha_evento" type="date" name="fecha_evento" placeholder="date">
+    </mat-form-field>
+    <mat-form-field>
+      <mat-label for="date-input">HORA REAL EVENTO</mat-label>
+        <input required matInput show-header="false" moment-picker="@NGModel2" id="hora_evento" name="hora_evento" ngModel
+          format="HH:mm" today="true" min-view="day" maxlength="5 " id="time" placeholder="HH:mm" /> 
+    </mat-form-field>
+
+    <mat-form-field *ngIf="motivo.name==='Falla de operación' ">
+      <mat-label for="select3">TIPO DE FALLA</mat-label>
+      <mat-select required id="tipo_falla" ngModel name="tipo_falla" >
+        <mat-option>Selecciona</mat-option>
+        <mat-option value='{{t}}' *ngFor="let t of linea.tipo_falla">{{t}}</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field *ngIf="motivo.name==='Reporte de fallas de operación' || motivo.name==='Falla de operación'">
+      <mat-label>UNIDAD</mat-label>
+      <input required matInput type="text" id="unidad" ngModel name="unidad">
+    </mat-form-field>
+
+
+
+    <mat-form-field *ngIf="motivo.name=='Auditoria'">
+      <mat-label>UBICACIÓN / INTER TRAMO</mat-label>
+      <input required matInput type="ubicacion_inter" id="ubicacion_inter" ngModel name="email-input">
+    </mat-form-field>
+    <mat-form-field *ngIf="motivo.name=='Auditoria'">
+      <mat-label for="disabledSelect">SANCION</mat-label>
+      <mat-select required id="disabledSelect" ngModel name="sancion" id="sancion">
+        <mat-option>Selecciona</mat-option>
+        <mat-option value='{{t}}' *ngFor="let t of linea.sancion">{{t}}</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field *ngIf="motivo.name=='Auditoria'">
+      <mat-label>INCIDENCIA</mat-label>
+      <input required matInput type="text" id="incidencia" name="incidencia" ngModel>
+    </mat-form-field>
+    <mat-form-field *ngIf="motivo.name=='Auditoria'">
+      <mat-label for="-select">PROPUESTA DE MEJORA</mat-label>
+      <mat-select required id="propuesta" name="propuesta" ngModel>
+        <mat-option>Selecciona</mat-option>
+        <mat-option value='{{t}}' *ngFor="let t of linea.propuesta">{{t}}</mat-option>
+
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field *ngIf="motivo.name==='Cumplimiento del programa'">
+      <mat-label>SERVICIO</mat-label>
+      <input required matInput type="text" id="servicio" ngModel name="servicio">
+    </mat-form-field>
+    <mat-form-field *ngIf="motivo.name==='Cumplimiento del programa'">
+      <mat-label>CUMPLE CON PROGRAMA</mat-label>
+      <input required matInput class="form-check-input" type="radio" name="cumple_progama" ngModel id="cumple_progama"
+        value="Si">
+      <mat-label class="form-check-label" for="inlineRadio1">SI</mat-label>
+
+      <input required matInput class="form-check-input" type="radio" name="cumple_progama" ngModel id="cumple_progama"
+        value="No">
+      <mat-label class="form-check-label">NO</mat-label>
+    </mat-form-field>
+
+    <mat-form-field *ngIf="motivo.name==='Cumplimiento del programa'">
+      <mat-label>CICLOS PROGRAMADOS</mat-label>
+      <input required matInput type="text" id="ciclos_progamados" name="ciclos_progamados" ngModel>
+    </mat-form-field>
+    <mat-form-field *ngIf="motivo.name==='Cumplimiento del programa'">
+      <mat-label>CICLOS REALIZADOS</mat-label>
+      <input required matInput type="text" id="ciclos_realizados" ngModel name="ciclos_realizados">
+    </mat-form-field>
+    <mat-form-field *ngIf="motivo.name==='Cumplimiento del programa'">
+      <mat-label>KMS PROGRAMADOS</mat-label>
+      <input required matInput type="text" id="kms_progamados" ngModel name="kms_progamados">
+    </mat-form-field>
+
+    <mat-form-field *ngIf="motivo.name==='Cumplimiento del programa'">
+      <mat-label>KMS REALIZADOS</mat-label>
+      <input required matInput type="text" id="kms_realizados" ngModel name="kms_realizados">
+    </mat-form-field>
+    <mat-form-field *ngIf="motivo.name==='Cumplimiento del programa'">
+      <mat-label>OBSERVACIONES</mat-label>
+      <input required matInput type="text" id="observaciones" ngModel name="observaciones">
+    </mat-form-field>
+
+    <mat-form-field *ngIf="motivo.name==='Reporte de fallas de operación'">
+      <mat-label>UNIDAD / SERVICIO</mat-label>
+      <input required matInput type="text" id="unidad_servicio" ngModel name="unidad_servicio">
+    </mat-form-field>
+    <mat-form-field *ngIf="motivo.name==='Reporte de fallas de operación'">
+      <mat-label>NUM. DE CREDENCIAL</mat-label>
+      <input required matInput type="text" id="numero_credencial" name="numero_credencial" ngModel>
+    </mat-form-field>
+
+    <mat-form-field *ngIf="motivo.name==='Reporte de fallas de operación'">
+      <mat-label for="-select">UBICACION/SENTIDO</mat-label>
+      <mat-select required name="ubicacion_sentido" ngModel id="ubicacion_sentido">
+        <mat-option>Selecciona</mat-option>
+        <mat-option value='{{t}}' *ngFor="let t of linea.sentido">{{t}}</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <mat-form-field *ngIf="motivo.name==='Reporte de fallas de operación'">
+      <mat-label>INCIDENCIA</mat-label>
+      <input required matInput type="text" id="incidencia" name="incidencia" ngModel>
+    </mat-form-field>
+    <mat-form-field *ngIf="motivo.name==='Reporte de fallas de operación'">
+      <mat-label>VUELTAS</mat-label>
+      <input required matInput type="text" id="vueltas" ngModel name="vueltas">
+    </mat-form-field>
+    <mat-form-field *ngIf="motivo.name==='Reporte de fallas de operación'">
+      <mat-label>KM X VUELTA</mat-label>
+      <input required matInput type="text" id="kms_vuelta" ngModel name="kms_vuelta" ngModel>
+    </mat-form-field>
+
+    <mat-form-field *ngIf="motivo.name==='Reporte de fallas de operación'">
+      <mat-label>MONTO POR KM</mat-label>
+      <input required matInput type="text" id="monto_km" ngModel name="monto_km">
+    </mat-form-field>
+    <mat-form-field *ngIf="motivo.name==='Informe de incidentes'">
+      <mat-label>ORIGEN</mat-label>
+      <input required matInput type="text" id="origen" ngModel name="origen">
+    </mat-form-field>
+    <mat-form-field *ngIf="motivo.name==='Informe de incidentes'">
+      <mat-label>CAUSA</mat-label>
+      <input required matInput type="text" id="causa" ngModel name="causa">
+    </mat-form-field>
+
+    <mat-form-field *ngIf="motivo.name==='Informe de incidentes'">
+      <mat-label>PROBLEMÁTICA</mat-label>
+      <input required matInput type="text" id="problematica" ngModel name="problematica">
+    </mat-form-field>
+    <mat-form-field *ngIf="motivo.name==='Informe de incidentes'">
+      <mat-label>POSIBLE SOLUCIÓN </mat-label>
+        <input required matInput type="text" id="posible_solucion" ngModel name="posible_solucion">
+    </mat-form-field>
+    <mat-form-field *ngIf="motivo.name==='Informe de incidentes'">
+      <mat-label for="select3">TIPO DE INCIDENTE</mat-label>
+      <mat-select required id="tipo_incidente" ngModel name="tipo_incidente" >
+        <mat-option>Selecciona</mat-option>
+        <mat-option value='{{t}}' *ngFor="let t of linea.tipo_falla">{{t}}</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <mat-form-field *ngIf="motivo.name==='Informe de incidentesS' ">
+      <mat-label for="disabledSelect">FUNDAMENTO LEGAL</mat-label>
+      <mat-select required id="fundamento_legal" name="fundamento_legal" ngModel>
+        <mat-option>Selecciona</mat-option>
+        <mat-option value='{{t}}' *ngFor="let t of linea.fundamento_legal">{{t}}</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field *ngIf="motivo.name==='Informe de incidentesS' ">
+      <mat-label for="disabledSelect">CONCESIONARIO RESPONSABLE</mat-label>
+      <mat-select required id="concesionario_responsable" name="concesionario_responsable" ngModel>
+        <mat-option>Selecciona</mat-option>
+        <mat-option value='{{t}}' *ngFor="let t of linea.consesionaria">{{t}}</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+  <!--End Operation-->
+    
+
+<!-- Seguridad  -->
+<div *ngIf="area.name==='SEGURIDAD' ">
+<mat-form-field>
+  <mat-label for="date-input">FECHA CAPTURA</mat-label>
+  <input required matInput id="fecha" type="date" ngModel name="fecha_captura" placeholder="date">
+</mat-form-field>
+<mat-form-field>
+  <mat-label for="date-input">HORA CAPTURA</mat-label>
+  <input required matInput show-header="false" moment-picker="@NGModel2" name="hora_captura" ngModel format="HH:mm"
+    today="true" min-view="day" maxlength="5 " id="time" placeholder="HH:mm" />
+</mat-form-field>
+<mat-form-field>
+  <mat-label>LINEA</mat-label>
+  <mat-select required id="linea" name="linea" ngModel ng-model (ngModelChange)="loadbasicos($event)">
+    <mat-option>Selecciona</mat-option>
+    <mat-option value="{{linea.name}}" *ngFor="let linea of area.lineas">{{linea.name}}</mat-option>
+  </mat-select>
+</mat-form-field>
+
+<mat-form-field>
+  <mat-label for="select1">ESTACIÓN</mat-label>
+  <mat-select required id="estacion" name="estacion" ngModel>
+    <mat-option>Selecciona</mat-option>
+    <mat-option value="{{l}}" *ngFor="let l of linea.estaciones">{{l}}</mat-option>
+  </mat-select>
+</mat-form-field>
+
+
+
+<mat-form-field>
+  <mat-label>SUPERVISOR</mat-label>
+  <input required matInput type="text" id="supervisor" name="supervisor" ngModel placeholder="Nombre Supervisor"
+    autocomplete="Supervisor">
+</mat-form-field>
+<mat-form-field>
+  <mat-label>MOTIVO DIRECTO</mat-label>
+  <mat-select required id="motivo_directo" ngModel name="motivo_directo" (ngModelChange)="loadMotivos($event)">
+    <mat-option>Selecciona</mat-option>
+    <mat-option value='{{m.name}}' *ngFor="let m of linea.motivo_directo">{{m.name}}</mat-option>
+  </mat-select>
+</mat-form-field>
+<mat-form-field>
+  <mat-label>MOTIVO ESPECIFICO</mat-label>
+  <mat-select required id="motivo_especifico" ngModel (ngModelChange)="motivoEspecifico($event)" name="motivo_especifico">
+    <mat-option>Selecciona</mat-option>
+    <mat-option value='{{e}}' *ngFor="let e of motivo.motivo_especifico">{{e}}</mat-option>
+  </mat-select>
+</mat-form-field>
+<mat-form-field>
+  <mat-label for="date-input">FECHA REAL DEL EVENTO</mat-label>
+  <input required matInput ngModel id="fecha_evento" type="date" name="fecha_evento" placeholder="date">
+</mat-form-field>
+<mat-form-field>
+  <mat-label for="date-input">HORA REAL EVENTO</mat-label>
+    <input required matInput show-header="false" moment-picker="@NGModel2" id="hora_evento" name="hora_evento" ngModel
+      format="HH:mm" today="true" min-view="day" maxlength="5 " id="time" placeholder="HH:mm" /> 
+</mat-form-field>
+
+
+<mat-form-field *ngIf="motivoEsp==='Informe de incidencia de apertura y cierre' ">
+  <mat-label >CIERRE</mat-label>
+  <mat-select required id="cierre" ngModel name="cierre" >
+    <mat-option>Selecciona</mat-option>
+    <mat-option value='{{t}}' *ngFor="let t of linea.cierre">{{t}}</mat-option>
+  </mat-select>
+</mat-form-field>
+
+<mat-form-field>
+  <mat-label>GUARDIA_CIERRE</mat-label>
+  <input required matInput type="text" id="guardia_c" ngModel name="guardia_c">
+</mat-form-field>
+
+<mat-form-field *ngIf="motivoEsp==='Informe de incidencia de apertura y cierre' ">
+  <mat-label>OBSERVACIONES CIERRE</mat-label>
+  <input required matInput type="text" id="observaciones" ngModel name="observaciones">
+</mat-form-field>
+
+<mat-form-field *ngIf="motivoEsp==='Informe de incidencia de apertura y cierre' ">
+  <mat-label >APERTURA</mat-label>
+  <mat-select required id="apertura" ngModel name="apertura" >
+    <mat-option>Selecciona</mat-option>
+    <mat-option value='{{t}}' *ngFor="let t of linea.apertura">{{t}}</mat-option>
+  </mat-select>
+</mat-form-field>
+
+<mat-form-field *ngIf="motivoEsp==='Informe de incidencia de apertura y cierre' ">
+  <mat-label>GUARDIA_APERTURA</mat-label>
+  <input required matInput type="text" id="guardia_a" ngModel name="guardia_a">
+</mat-form-field>
+
+
+<mat-form-field *ngIf="motivoEsp==='Informe de incidencia de apertura y cierre' ">
+  <mat-label>OBSERVACIONES APERTURA</mat-label>
+  <input required matInput type="text" id="observaciones_a" ngModel name="observaciones_a">
+</mat-form-field>
+
+<mat-form-field *ngIf="motivoEsp=='Reporte de incidencias de guardias' ">
+  <mat-label >TIPO DE FALLA</mat-label>
+  <mat-select required id="tipo_incidencia" ngModel name="tipo_incidencia" >
+    <mat-option>Selecciona</mat-option>
+    <mat-option value='{{t}}' *ngFor="let t of linea.tipo_incidencia">{{t}}</mat-option>
+  </mat-select>
+</mat-form-field>
+
+<mat-form-field *ngIf="motivoEsp==='Reporte de incidencias de guardias' ">
+  <mat-label for="disabledSelect">SANCION</mat-label>
+  <mat-select required id="disabledSelect" ngModel name="sancion" id="sancion">
+    <mat-option>Selecciona</mat-option>
+    <mat-option value='{{t}}' *ngFor="let t of linea.sancion">{{t}}</mat-option>
+  </mat-select>
+</mat-form-field>
+
+<mat-form-field *ngIf="motivoEsp==='Reporte de incidencias de guardias' ">
+  <mat-label for="disabledSelect">SALARIOS MINIMOS</mat-label>
+  <mat-select required id="disabledSelect" ngModel name="salario" id="salario">
+    <mat-option>Selecciona</mat-option>
+    <mat-option value='{{t}}' *ngFor="let t of linea.salario">{{t}}</mat-option>
+  </mat-select>
+</mat-form-field>
+
+
+
+<mat-form-field *ngIf="motivoEsp==='Reporte de incidencias de guardias' ">
+  <mat-label>MONTO TOTAL</mat-label>
+  <input required matInput type="text" id="unidad" ngModel name="unidad">
+</mat-form-field>
+
+
+
+<mat-form-field *ngIf="motivoEsp==='Reporte de supervisión de guardias' ">
+  <mat-label for="-select">EMPRESA PRESTADORA DEL SERVICIO</mat-label>
+  <mat-select required id="consesionaria" name="consesionaria" ngModel>
+    <mat-option>Selecciona</mat-option>
+    <mat-option value='{{t}}' *ngFor="let t of linea.consesionaria">{{t}}</mat-option>
+
+  </mat-select>
+</mat-form-field>
+
+<mat-form-field *ngIf="motivoEsp==='Reporte de supervisión de guardias' ">
+  <mat-label>ASISTENCIA</mat-label>
+  <input required matInput class="form-check-input" type="radio" name="asistencia" ngModel id="asistencia"
+    value="Si">
+  <mat-label class="form-check-label" for="inlineRadio1">SI</mat-label>
+
+  <input required matInput class="form-check-input" type="radio" name="asistencia" ngModel id="asistencia"
+    value="No">
+  <mat-label class="form-check-label">NO</mat-label>
+</mat-form-field>
+
+<mat-form-field *ngIf="motivoEsp==='Reporte de supervisión de guardias' ">
+  <mat-label>UNIFORMES</mat-label>
+  <input required matInput class="form-check-input" type="radio" name="uniformes" ngModel id="uniformes"
+    value="Si">
+  <mat-label class="form-check-label" for="inlineRadio1">SI</mat-label>
+
+  <input required matInput class="form-check-input" type="radio" name="uniformes" ngModel id="uniformes"
+    value="No">
+  <mat-label class="form-check-label">NO</mat-label>
+</mat-form-field>
+
+<mat-form-field *ngIf="motivoEsp==='Reporte de supervisión de guardias' ">
+  <mat-label>CONOCIMIENTO DE CONSIGNAS</mat-label>
+  <input required matInput class="form-check-input" type="radio" name="consignas" ngModel id="consignas"
+    value="Si">
+  <mat-label class="form-check-label" for="inlineRadio1">SI</mat-label>
+
+  <input required matInput class="form-check-input" type="radio" name="consignas" ngModel id="consignas"
+    value="No">
+  <mat-label class="form-check-label">NO</mat-label>
+</mat-form-field>
+
+<mat-form-field *ngIf="motivoEsp==='Reporte de supervisión de guardias' ">
+  <mat-label>Procesamientos</mat-label>
+  <input required matInput class="form-check-input" type="radio" name="presesamiento" ngModel id="presesamiento"
+    value="Si">
+  <mat-label class="form-check-label" for="inlineRadio1">SI</mat-label>
+
+  <input required matInput class="form-check-input" type="radio" name="presesamiento" ngModel id="presesamiento"
+    value="No">
+  <mat-label class="form-check-label">NO</mat-label>
+</mat-form-field>
+
+
+
+
+<mat-form-field *ngIf="motivoEsp==='Reporte de supervisión de guardias' ">
+  <mat-label>EVIDENCIA FOTOGRAFICA</mat-label>
+  <input required matInput type="text" id="evidencia" name="evidencia" ngModel>
+</mat-form-field>
+<mat-form-field *ngIf="motivoEsp==='Reporte de supervisión de guardias' ">
+  <mat-label>Observaciones Turnos</mat-label>
+  <input required matInput type="text" id="ciclos_realizados" ngModel name="ciclos_realizados">
+</mat-form-field>
+</div>
+{{photoService.porcentaje}}
+{{photoService.URLPublica}}
+<ion-grid *ngIf="photoService.photos.length>0">
+  <ion-row>
+  <ion-col size="6" 
+    *ngFor="let photo of photoService.photos; index as position">
+      <ion-img [src]="photo.webPath"></ion-img>
+  </ion-col>
+  </ion-row>
+</ion-grid>
+
+<!--End Seguridad-->
+
+
+
+
+
+
+
+  
+    <!--mat-form-field >
+              <mat-label  for="file-input">File input</mat-label>
+              <mat-form-field >
+                <input required matInput type="file" id="file-input" name="file-input">
+              </mat-form-field>
+            </mat-form-field>
+            <mat-form-field >
+              <mat-label  for="file--input"> File input</mat-label>
+              <mat-form-field >
+                <input required matInput type="file" id="file--input" name="file--input">
+              </mat-form-field>
+            </mat-form-field-->
+          
+           
+
+    <div class="card-footer"  style="padding-left: 1rem;" >
+      <button style="margin-left: 1rem;" type="button" (click)="addPhotoToGallery()" mat-raised-button color="primary"> <ion-icon name="camera"></ion-icon>Agregar Foto</button>
+      <button  style="margin-left: 1rem;" type="submit" mat-raised-button>Guardar</button>
+      <button  style="margin-left: 1rem;" type="reset" mat-raised-button color="primary">Limpiar</button>
+    </div>
+  </form>
+
+
+</ion-col>
+</ion-row>
+
+</ion-grid>
+</ion-content>

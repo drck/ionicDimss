@@ -1,0 +1,111 @@
+
+ion-header {
+    width: 100%;
+    height: 9.2vh;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    background: white;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 2%;
+    color: #344653;
+
+    ion-title {
+        padding:0px;
+        margin:0px;
+        font-family: 'HSBC-02-LT';
+        font-size: 1rem;
+        font-weight: normal;
+
+        span {
+            font-weight: bolder;
+        }
+    }
+
+    .brand {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        align-items: center;
+
+        img {
+            //width: 4rem;
+            height: 3rem;
+            margin-right: 2rem;
+        }
+    }
+
+    .client-control {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        .client-avatar {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            &.home-border {
+                border-right: 1px solid #d7d8d6;
+            }
+
+            ion-title {
+                margin-right: 2rem;
+            }
+            .avatar-controls{
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                .thumbImg {
+                    width: 70%;
+                    min-width: 30px;
+                }
+                .thumbImgRounded {
+                    width: 3rem;
+                    height: 3rem;
+                    border-radius: 50%;
+                }
+                button {
+                    width: 10rem;
+                    height: 3rem;
+                    z-index: 4;
+                    border-radius: 4px;
+                    position: absolute;
+                    margin-top: 6rem;
+                    margin-left: -200px;
+                    background-color: #344653;
+                    text-align: left;
+                    color: white;
+                    &::after {
+                        content:' ';
+                        position: absolute;
+                        top: 0px;
+                        border-style: solid;
+                        border-width: 0px 10px 15px 10px;
+                        border-color: transparent transparent #344653 transparent;
+                        right: 1rem;
+                        margin-top: -14px;
+                    }
+                    p {
+                        color: white;
+                        font-family: 'HSBC-02-LT';
+                        font-size: 1rem;
+                        border-bottom: .5px solid #4d6474;
+                        padding-bottom: 7.5px;
+                        width: 100%;
+                        padding-left: 5px;
+                    }
+                }
+            }
+        }
+        .home-button {
+            background-color: transparent;
+
+            img {
+                width: 70%;
+                min-width: 30px;
+
+            }
+        }
+    }
+}

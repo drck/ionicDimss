@@ -1,0 +1,70 @@
+  
+  <div style="margin-top: 2rem;">{{title}} </div>
+
+    <ion-grid>
+      <ion-row>
+        <ion-col>Total:</ion-col>
+        <ion-col>{{total}}</ion-col>
+        <ion-col>OPERACIONES:</ion-col>
+      </ion-row>
+    </ion-grid>
+
+  
+    <div id="htmlData" #htmlData style="max-height: 70vh;">
+
+      <table  id="basic-table"  mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+        <ng-container matColumnDef="id">      
+          <th class="p-1" mat-header-cell *matHeaderCellDef>Id</th>
+          <td  class="p-1" mat-cell *matCellDef="let entregable; let i = index;"> {{i + 1}} </td>
+        </ng-container>
+        <ng-container matColumnDef="fecha_captura">
+          <th mat-header-cell *matHeaderCellDef>Fecha</th>
+          <td  class="p-1"mat-cell *matCellDef="let entregable">{{entregable.fecha_captura}}</td>
+        </ng-container>
+        <ng-container matColumnDef="hora_captura">
+          <th mat-header-cell *matHeaderCellDef>Hora</th>
+          <td  class="p-1"mat-cell *matCellDef="let entregable">{{entregable.hora_captura}}</td>
+        </ng-container>
+        <ng-container matColumnDef="supervisor">
+          <th mat-header-cell *matHeaderCellDef>Supervisor</th>
+          <td  class="p-1"mat-cell *matCellDef="let entregable">{{entregable.supervisor}}</td>
+        </ng-container>
+        <ng-container matColumnDef="motivo_directo">
+          <th mat-header-cell *matHeaderCellDef>Motivo Directo</th>
+          <td class="p-1"mat-cell *matCellDef="let entregable">{{entregable.motivo_directo}}</td>
+        </ng-container>
+        <ng-container matColumnDef="motivo_especifico">
+          <th mat-header-cell *matHeaderCellDef>Motivo Especifico</th>
+          <td class="p-1"mat-cell *matCellDef="let entregable">{{entregable.motivo_especifico}}</td>
+        </ng-container>
+        <ng-container matColumnDef="tipo_falla">
+          <th mat-header-cell *matHeaderCellDef>Tipo Falla</th>
+          <td mat-cell *matCellDef="let entregable">{{entregable.tipo_falla}}</td>
+        </ng-container>
+        
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+      </table>
+  
+    </div>
+  <br />
+  <div style="margin: auto">
+    <button
+    (click)="downloadPDF()"
+      mat-raised-button
+      color="primary"
+      style="margin: 30px"
+      
+    >
+      Exportar
+    </button>
+    <button
+      mat-raised-button
+      color="primary"
+      style="margin: 30px"
+      
+    >
+      Cancel
+    </button>
+  </div>

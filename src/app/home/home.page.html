@@ -1,0 +1,51 @@
+
+
+
+
+<ion-content>
+  <ion-grid no-padding style="display: flex;
+  justify-content: center;
+  align-items: center;">
+
+<!--mat-grid-list cols="4" class="middle-row" style="width: 80%; " rowHeight="30vh">
+  <mat-grid-tile
+    style="margin: 1rem;"
+      *ngFor="let tile of tiles"
+      [colspan]="tile.cols"
+      [rowspan]="tile.rows"
+      [style.background]="tile.color"
+      (click)="navCtrl.navigateRoot(tile.url)">
+      <ion-icon class="icons"  name="document-text-outline"></ion-icon>
+      {{tile.text}}
+
+  </mat-grid-tile>
+</mat-grid-list-->
+
+    <ion-row class="middle-row" no-padding>
+      <ion-col  col-7 col-sm-12 no-padding>
+        <button tab="tab2" class="primaryButton" (click)="navCtrl.navigateRoot('/register')">
+          <ion-icon class="icons"  name="document-text-outline"></ion-icon>
+          <p>Regitrar</p>
+        </button>
+      </ion-col>
+      <ion-col col-sm-12 col-3  no-padding>
+      <ion-row >
+      <ion-col col-sm-6 col-12 no-padding class="secondCol">
+        <button tab="tab3" class="secondButton" (click)="navCtrl.navigateRoot('/entregables')">
+          <ion-icon class="icons" name="briefcase-outline"></ion-icon>
+          <p>Entregables</p>
+        </button>
+      </ion-col>
+    </ion-row>
+    <ion-row  no-padding>
+      <ion-col col-sm-6 col-12  no-padding class="secondCol">
+        <button tab="tab4" class="secondButton" (click)="navCtrl.navigateRoot('/bitacora')">
+          <ion-icon  class="icons"  size="1" name="receipt-outline"></ion-icon>
+          <p>Bitacora</p>
+        </button>
+      </ion-col>
+    </ion-row>
+  </ion-col>
+    </ion-row>
+   </ion-grid>
+</ion-content>

@@ -1,0 +1,84 @@
+<div class="padre">
+  <div class="hijo">
+    <section class="welcome-content-card" *ngIf="isWelcomeScreenActive">
+      <ion-row no-padding class="welcome-content-card-main-row">
+        <ion-col no-padding size="1">
+        </ion-col>
+        <ion-col no-padding size="11">
+          <ion-row no-padding class="welcome-content-card-row-intro">
+          </ion-row>
+          <ion-row no-padding class="welcome-content-card-row-logo">
+            <img src="assets/logo.png" />
+          </ion-row>
+          <ion-row class="welcome-content-card-row-spacing-1">
+          </ion-row>
+          <ion-row no-padding class="welcome-content-card-row-text">
+            <span><b>Dimssico Portal</b> </span>
+          </ion-row>
+          <ion-row class="welcome-content-card-row-spacing-2">
+          </ion-row>
+          <ion-row class="welcome-content-card-row-button">
+            <button color="hsbc" ion-button (click)="isWelcomeScreenActive = false">
+              Comencemos
+            </button>
+          </ion-row>
+          <ion-row class="welcome-content-card-row-outro">
+          </ion-row>
+        </ion-col>
+      </ion-row>
+    </section>
+
+    <section class="login-content-card" *ngIf="!isWelcomeScreenActive">
+      <ion-row no-padding class="login-content-card-main-row">
+        <ion-col size="1">
+        </ion-col>
+        <ion-col no-padding size="11">
+          <form [formGroup]="authenticationForm" (ngSubmit)="authenticationForm.valid && loginEventHandler()" style="height: 100%">
+            <ion-col no-padding>
+              <ion-row no-padding class="login-content-card-row-intro">
+                Accede proporcionando tu usuario y contraseña
+              </ion-row>
+              <ion-row no-padding class="login-content-card-row-user">
+                <ion-item>
+                  <ion-label position="floating">Usuario</ion-label>
+                  <ion-input min="0" autofocus="true" type="number" maxlength="10" pattern="[0-9]*" 
+                    formControlName="username" required>
+                  </ion-input>
+                </ion-item>
+              </ion-row>
+              <ion-row no-padding class="login-content-card-row-password">
+                <ion-item class="custom-input">
+                  <ion-label position="floating">Contraseña</ion-label>
+                  <ion-input formControlName="password" type="password"></ion-input>
+                   <img src="assets/images/warning-error.svg" alt=""> 
+                </ion-item>
+                <div *ngIf="password.errors">
+                  <p style="color: red;" *ngIf="password.errors['invalidCredentials']">* Usuario y/o contraseña
+                    incorrectos</p>
+                </div>
+              </ion-row>
+              <ion-row no-padding class="login-content-card-row-login-button">
+                <button class="red-button-medium" [disabled]="!authenticationForm.valid">Iniciar sesión</button>
+              </ion-row>
+            </ion-col>
+          </form>
+        </ion-col>
+      </ion-row>
+    </section>
+
+  </div>
+</div>
+
+<!--ion-content class="login-grid">
+    <ion-row no-padding class="login-grid-middle-row">
+       
+
+      </ion-col>
+      <ion-col size=3 class="welcome-grid-middle-row column-height">
+      </ion-col>
+    </ion-row>
+    <ion-row class="login-grid-bottom-row">
+
+    </ion-row>
+  </ion-grid>
+</ion-content-->
